@@ -3,10 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.component'; // Ajusta la ruta
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PaginaEPIC1Component // Declara tu componente aquí
   ],
   imports: [
     BrowserModule,
