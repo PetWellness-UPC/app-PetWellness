@@ -1,6 +1,6 @@
 <div class="inicioBuscarArticulos">
   <div class="bG"></div>
-  <button class="button3">
+  <button class="button3" (click)="scrollToBottom()">
     <div class="rectangle"></div>
     <div class="buttonName">Empezar a buscar articulos</div>
   </button>
@@ -23,39 +23,40 @@
 </div>
 <div class="seccionBusquedaArticulos">
   <div class="bG2"></div>
-  <div class="favorito3"><img src="favorito-3-icon.svg" alt="" class="icon2" /></div>
-  <div class="respiracionEnLosPerrosLasRazas">
-    <div class="textBlock12">Respiracion en los perros: Las razas que más les cuesta</div>
-    <div class="textBlock13"><p></p></div>
-  </div>
-  <div class="favorito2"><img src="favorito-2-icon.svg" alt="" class="icon3" /></div>
-  <div class="carlinosParaDepartamentosLaRaz">Carlinos para departamentos: La raza ideal?</div>
-  <div class="favorito1"><img src="favorito-1-icon.svg" alt="" class="icon4" /></div>
-  <div class="laRazaPugLindosPeroEnfermizos">
-    <div class="textBlock14">La raza pug: Lindos pero enfermizos</div>
-    <div class="textBlock15"><p></p></div>
+  <div class="bG4">
+    <div class="favorito3"><img src="favorito-3-icon.svg" alt="" class="icon2" /></div>
+    <div class="respiracionEnLosPerrosLasRazas">
+      <div class="textBlock12">Respiracion en los perros: Las razas que más les cuesta</div>
+      <div class="textBlock13"><p></p></div>
+    </div>
+    <div class="favorito2"><img src="favorito-2-icon.svg" alt="" class="icon3" /></div>
+    <div class="carlinosParaDepartamentosLaRaz">Carlinos para departamentos: La raza ideal?</div>
+    <div class="favorito1"><img src="favorito-1-icon.svg" alt="" class="icon4" /></div>
+    <div class="laRazaPugLindosPeroEnfermizos">
+      <div class="textBlock14">La raza pug: Lindos pero enfermizos</div>
+      <div class="textBlock15"><p></p></div>
+    </div>
   </div>
   <div class="bG3"></div>
   <div class="buttonSolidStyle4">
-    <button class="button1">
+    <button class="button1" (click)="onSearch()">
       <div class="rectangle2"></div>
       <div class="buttonName2">Buscar</div>
     </button>
   </div>
-  <div class="inputSelectWithLabel">
+  <label class="inputSelectWithLabel">
     <div class="input">
-      <div class="bGSolid"></div>
+      <input type="text" class="bGSolid" [(ngModel)]="inputText" placeholder="Buscar artículo..."/>
       <div class="bGBorder"></div>
-      <div class="inputName">Ingresar busqueda...</div>
     </div>
-  </div>
-  <div class="inputSelectWithLabelCopy">
+  </label>
+
+  <label class="inputSelectWithLabelCopy">
     <div class="input2">
-      <div class="bGMain"></div>
+      <input type="text" class="bGMain" [(ngModel)]="petType" placeholder="Tipo de mascota" />
       <div class="bGBorder2"></div>
-      <div class="selectName">Tipo de mascota</div>
     </div>
-  </div>
-  <div class="busquedaDeInformacionSobreMasc">Búsqueda de información sobre mascotas</div>
+  </label>
+  <div id="Redireccion" class="busquedaDeInformacionSobreMasc">Búsqueda de información sobre mascotas</div>
 </div>
 <div class="Main"></div>
