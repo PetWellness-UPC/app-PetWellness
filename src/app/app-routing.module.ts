@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SearchClinicComponent } from './search-clinic/search-clinic.component';
+import { SearchClinicMapComponent } from './search-clinic-map/search-clinic-map.component';
 
 const routes: Routes = [
   //{ path: 'search-clinic', component: SearchClinicComponent },

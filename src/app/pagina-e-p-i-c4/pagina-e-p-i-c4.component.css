@@ -1,0 +1,181 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+
+
+.seccionBusquedaArticulos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2fedc;
+  width: 100%;
+  height: 100vh;
+}
+
+.bG3 {
+  position: relative;
+  display: flex;
+  flex-direction: row;  
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 14.5469px;
+  background-color: #7f9c00;
+  box-shadow: 0px 78.5531px 77.0984px -33.4578px #161c2d23;
+  width: 50%;
+  height: 75px;
+}
+
+.buttonSolidStyle4 {
+  right: 15px;
+  position: relative;
+  flex-direction: column;
+  width: 30%;
+  height: 50px;
+}
+.button1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #e7efb3;
+}
+.buttonName2 {
+  color: #000;
+  font-size: 24.7297px;
+  line-height: 46.55px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.8728px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 0.5023px);
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.inputSelectWithLabel {
+  left: 15px;
+  position: relative;
+  flex-direction: column;
+  width: 30%;
+  height: 50px;
+}
+.input {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.inputSelectWithLabelCopy {
+  position: relative;
+  flex-direction: column;
+  width: 30%;
+  height: 50px;
+}
+.input2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.bGMain {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #fff;
+}
+.bGBorder2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1.4547px #e7e9ed;
+  outline-offset: -1px;
+  border-radius: 11.6375px;
+}
+.selectName {
+  color: #161c2d;
+  font-size: 21.8203px;
+  line-height: 37.8219px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.1455px;
+  position: absolute;
+  left: 26.1844px;
+  top: calc(50% - -0.0891px);
+  width: 280.7546px;
+  height: min-content;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.busquedaDeInformacionSobreMasc {
+  color: #000;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: relative;
+  height: 68px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.custom-form-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+}
+
+.mat-form-field-infix {
+  width: 30%; /* Ensure the input takes full width of the form field */
+}
+
+.example-full-width {
+  width: 30%;
+}

@@ -3,24 +3,36 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.component';
+import { PaginaEPIC4Component } from './pagina-e-p-i-c4/pagina-e-p-i-c4.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async'; // Ajusta la ruta
 
 import { MaterialModule } from './material/material.module';
 
-import { SearchClinicComponent } from './search-clinic/search-clinic.component';
+import { SearchClinicMapComponent } from './search-clinic-map/search-clinic-map.component';
+
+import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
+
+import {MatInputModule} from '@angular/material/input';
+
+import { MatAutocompleteModule } from '@angular/material/autocomplete'; // Import MatAutocompleteModule
+import { MatFormFieldModule } from '@angular/material/form-field'; // Import MatFormFieldModule
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PaginaEPIC1Component, // Declara tu componente aquí
+    PaginaEPIC4Component,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule,    
-    SearchClinicComponent, // Importar el componente standalone
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,    
+    SearchClinicMapComponent, // Importar el componente standalone
+    MatAutocompleteModule,
+    MatFormFieldModule,
   ],
   providers: [
     provideAnimationsAsync()

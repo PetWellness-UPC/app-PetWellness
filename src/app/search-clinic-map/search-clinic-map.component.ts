@@ -16,7 +16,7 @@ import { MatInput } from '@angular/material/input';
 import {MatRadioButton, MatRadioChange, MatRadioGroup} from "@angular/material/radio";
 
 @Component({
-  selector: 'app-search-clinic',
+  selector: 'app-search-clinic-map',
   standalone: true,
   imports: [    
     GoogleMap,
@@ -33,10 +33,10 @@ import {MatRadioButton, MatRadioChange, MatRadioGroup} from "@angular/material/r
     FormsModule,
     MatRadioButton
   ],
-  templateUrl: './search-clinic.component.html',
-  styleUrl: './search-clinic.component.css'
+  templateUrl: './search-clinic-map.component.html',
+  styleUrl: './search-clinic-map.component.css'
 })
-export class SearchClinicComponent {
+export class SearchClinicMapComponent {
   textOrigen = 'Ingrese Origen';
   textDestino = 'Ingrese Destino';
 

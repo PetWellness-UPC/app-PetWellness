@@ -5,6 +5,8 @@ import {MatButtonModule} from '@angular/material/button';
 
 import {MatCard, MatCardContent, MatCardHeader, MatCardSubtitle, MatCardTitle} from "@angular/material/card";
 
+import { MatLabel, MatFormField} from '@angular/material/form-field';
+
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {GoogleMap, MapDirectionsRenderer, MapHeatmapLayer, MapTrafficLayer} from "@angular/google-maps";
 
@@ -23,7 +25,9 @@ import {GoogleMap, MapDirectionsRenderer, MapHeatmapLayer, MapTrafficLayer} from
     GoogleMap,
     MapDirectionsRenderer,
     MapHeatmapLayer,
-    MapTrafficLayer
+    MapTrafficLayer,
+    MatLabel,
+    MatFormField
   ],
   exports: [
     MatCardModule,
@@ -36,7 +40,9 @@ import {GoogleMap, MapDirectionsRenderer, MapHeatmapLayer, MapTrafficLayer} from
     GoogleMap,
     MapDirectionsRenderer,
     MapHeatmapLayer,
-    MapTrafficLayer
+    MapTrafficLayer,
+    MatLabel,
+    MatFormField
   ]
 })
 export class MaterialModule { }
