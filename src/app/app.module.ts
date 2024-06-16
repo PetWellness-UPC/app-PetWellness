@@ -7,18 +7,20 @@ import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.componen
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async'; // Ajusta la ruta
 
 import { MaterialModule } from './material/material.module';
+
 import { SearchClinicComponent } from './search-clinic/search-clinic.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    PaginaEPIC1Component,
-    SearchClinicComponent // Declara tu componente aquí
+    PaginaEPIC1Component, // Declara tu componente aquí
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,    
+    SearchClinicComponent, // Importar el componente standalone
   ],
   providers: [
     provideAnimationsAsync()

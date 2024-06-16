@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 
+import {MatCard, MatCardContent, MatCardHeader, MatCardSubtitle, MatCardTitle} from "@angular/material/card";
+
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {GoogleMap, MapDirectionsRenderer, MapHeatmapLayer, MapTrafficLayer} from "@angular/google-maps";
 
@@ -12,6 +14,10 @@ import {GoogleMap, MapDirectionsRenderer, MapHeatmapLayer, MapTrafficLayer} from
   imports: [
     CommonModule,
     MatCardModule,
+    MatCard,
+    MatCardHeader,
+    MatCardSubtitle,
+    MatCardTitle,
     MatAutocompleteModule,
     MatButtonModule,
     GoogleMap,
@@ -21,6 +27,10 @@ import {GoogleMap, MapDirectionsRenderer, MapHeatmapLayer, MapTrafficLayer} from
   ],
   exports: [
     MatCardModule,
+    MatCard,
+    MatCardHeader,
+    MatCardSubtitle,
+    MatCardTitle,
     MatAutocompleteModule,
     MatButtonModule,
     GoogleMap,
