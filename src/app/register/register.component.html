@@ -1,9 +1,14 @@
+<body>
+  
+
 <div *ngIf="showVerificationMessage; else registerForm" class="verification-message">
     <div class="ellipse15"> <img src="check.svg" alt="" class="icon" /></div>
       <h2>¡Solo falta un paso!</h2>
       <p>Te hemos mandado un correo de verificación...</p>
     </div>
-    
+
+  
+
     <ng-template #registerForm>
       <div class="form-container">
         <h2>Registrar Cuenta</h2>
@@ -38,3 +43,4 @@
         </form>
       </div>
     </ng-template>
+  </body>

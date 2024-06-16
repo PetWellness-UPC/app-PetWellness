@@ -14,8 +14,13 @@ export class RegisterComponent {
   showVerificationMessage: boolean = false;
 
   register() {
-    
-    this.showVerificationMessage = true;
+    if (this.name.trim() !== '' && this.email.trim() !== '' && this.password.trim() !== '') {
+      
+      this.showVerificationMessage = true;
+    } else {
+     
+      console.log('Por favor completa todos los campos requeridos.');
+    }
   }
   toggleWorkPlaceField() {
  
