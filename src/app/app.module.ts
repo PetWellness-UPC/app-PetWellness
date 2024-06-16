@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async'; // Ajusta la ruta
 
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule
   ],
   providers: [
     provideAnimationsAsync()
