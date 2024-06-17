@@ -1,2 +1,647 @@
-<h1>Bienvenido a la aplicación de registro</h1>
-<a routerLink="/register">Ir a Registro</a> 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>PetWellness</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="home.component.css" />
+</head>
+
+<body class="flex-column">
+    <main class="pet-wellness main">
+        <header>
+            <div class="component">
+                <nav class="navbar nav-bg">
+                    <div class="header__logoBox">
+                        <ul class="menu">
+                            <a href="#inicio"><img class="header__logoImage" src="HeaderLogo.png" alt="alt text" /></a>
+                            <li><a href="#acerca-de"><h5 class="lista">Acerca de</h5></a></li>
+                            <li><a href="#beneficios"><h5 class="lista">Nuestros Beneficios</h5></a></li>
+                            <li><a href="#testimonios"><h5 class="lista">Testimonios</h5></a></li>
+                            <li><a href="#precios"><h5 class="lista">Precios</h5></a></li>
+                            <li><a href="#galeria"><h5 class="lista">Galería</h5></a></li>
+                            <li><a href="#preguntas"><h5 class="lista">Preguntas Frecuentes</h5></a></li>
+                            <li><a href="#video"><h5 class="lista">Video Explicativo</h5></a></li>
+                            <li><a href="#formulario"><h5 class="lista">Formularios</h5></a></li>
+                            <li><a href="#casos"><h5 class="lista">Casos de Exito</h5></a></li>
+                            <li><a routerLink="/login"><h5 class="header__loginLink">Iniciar sesión</h5></a></li>
+                            <button class="header__registerButton">
+                                <li><a routerLink="/register"> <h5 class="header__registerButtonText">Regístrese</h5></a></li>
+                                <img class="header__registerButtonIcon" src="Register_Flecha.svg" alt="alt text" />
+                            </button>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="inicio" id="inicio">
+            <div class="contentContainer">
+                <div class="textContainer">
+                    <div class="descriptionContainer">
+                        <h1 class="heroTitleBox_box">
+                            <span class="heroTitleBox"
+                  ><span class="heroTitleBox_span0">Consultas veterinarias,<br /></span><span class="heroTitleBox_span1">las </span><span class="heroTitleBox_span2">24 horas</span><span class="heroTitleBox_span3"> del día.</span></span>
+                        </h1>
+                        <h2 class="mediumTitle">
+                            Te ofrecemos la información de cuidados para tu mascota, buscar la clínica más cercana a tu ubicación y
+                            la manera más fácil de reservar consultas con veterinarios calificados.
+                        </h2>
+                    </div>
+                    <button class="registerButton">Regístrese</button>
+                </div>
+                <div class="imageWrapper">
+                    <div class="imageContainer">
+                        <img class="imagePrimary" src="PolygonoDePuntosIMG.svg" alt="alt text" /><img class="coverImage" src="Veterinaria.png" alt="alt text" /><img class="supportingImage1" src="BordesCirculares.svg" alt="alt text" /><img class="supportingImage2" src="SerpentinaVerde.svg" alt="alt text" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="aboutSection" id="acerca-de" style="--src:url(.FondoDegradadoAmarillo.png)">
+            <div class="aboutContainer">
+                <img class="aboutImage" src="GatitoEchado.png" alt="alt text" />
+                <div class="aboutContentContainer">
+                    <h2 class="aboutTitle">Acerca de</h2>
+                    <div class="aboutLineDivider"></div>
+                    <h1 class="aboutParagraph">
+                        Somos una iniciativa dedicada a promover el bienestar y la salud de su mascota.  Aportando informacion y
+                        cuidados esenciales.
+                    </h1>
+                </div>
+            </div>
+            <div class="missionVisionContainer">
+                <div class="missionContainer" style="--src:url(.FondoDegradadoTurquesa.png)">
+                    <h2 class="missionTitle">Misión</h2>
+                    <div class="missionLineDivider"></div>
+                    <p class="missionParagraph">
+                        Nos dedicamos a promover el bienestar de las mascotas a través de información confiable y servicios
+                        veterinarios de alta calidad, con el objetivo de mejorar su calidad de vida y fortalecer el vínculo con
+                        sus dueños.
+                    </p>
+                </div>
+                <div class="visionContainer" style="--src:url(.FondoDegradadoVerde.png)">
+                    <img class="visionImage" src="PerroVision.png" alt="alt text" />
+                    <div class="visionContentContainer">
+                        <h2 class="visionTitle">Visión</h2>
+                        <div class="visionLineDivider"></div>
+                        <p class="visionParagraph">
+                            Buscamos liderar una comunidad comprometida con el bienestar de las mascotas. Nuestra visión es un mundo
+                            donde todas las mascotas reciban amor, cuidado y atención para una vida feliz y saludable.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="careInfoSection" id="beneficios">
+            <div class="flexCol">
+                <div class="flexRow">
+                    <img class="logoImage1" src="PuntoTurquesa.svg" alt="alt text" /><img class="logoImage2" src="PuntoTurquesaTrans.svg" alt="alt text" /><img class="logoImage3" src="PuntoTurquesaTrans2.svg" alt="alt text" />
+                </div>
+                <img class="mainImage1" src="NuestrosServicios.png" alt="alt text" /><img class="mainImage2" src="NosAdecuamos.png" alt="alt text" />
+                <div class="flexRowMain">
+                    <div class="flexColInfo">
+                        <img class="infoImage" src="PerroAcariciado.png" alt="alt text" />
+                        <h2 class="infoTitle">Información de cuidado</h2>
+                        <h3 class="infoSubtitle">Te brindamos información veridicata sobre el cuidado de tu mascota</h3>
+                        <div class="flexRowButton">
+                            <h5 class="ctaKnowMore">Saber más</h5>
+                            <img class="buttonImage" src="FlechaBlanca.svg" alt="alt text" />
+                        </div>
+                    </div>
+                    <div class="flexColConsultation">
+                        <img class="consultationImage" src="VeterinarioConPerro.png" alt="alt text" />
+                        <h2 class="consultationTitle">Consultas Veterinarias</h2>
+                        <h3 class="consultationSubtitle">Te ayudamos a concertar una cita veterinaria cerca a tu ubicación</h3>
+                        <div class="flexRowButtonConsultation">
+                            <h5 class="ctaKnowMoreConsultation">Saber más</h5>
+                            <img class="buttonImageConsultation" src="FlechaBlanca.svg" alt="alt text" />
+                        </div>
+                    </div>
+                    <div class="flexColSpecialNeeds">
+                        <img class="specialNeedsImage" src="PerroMariposa.png" alt="alt text" />
+                        <h2 class="specialNeedsTitle">Necesidades Especiales</h2>
+                        <h3 class="specialNeedsSubtitle">
+                            Te ayudamos con tu mascota con necesidades especiales o si tu tienes una dificultad con su cuidado
+                        </h3>
+                        <div class="flexRowButtonSpecialNeeds">
+                            <h5 class="ctaKnowMoreSpecialNeeds">Saber más</h5>
+                            <img class="buttonImageSpecialNeeds" src="FlechaBlanca.svg" alt="alt text" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="servicesSection" id="beneficios2">
+            <div class="servicesSection1" style="--src:url(.FondoTurquesaNegro.png)">
+                <div class="flex_col">
+                    <h1 class="mainTitle_box">
+                        <span class="mainTitle"
+                ><span class="mainTitle_span0">Con nosotros, sus </span><span class="mainTitle_span1">mascotas </span><span class="mainTitle_span2">serán más </span><span class="mainTitle_span3">felices</span><span class="mainTitle_span4">.</span></span>
+                    </h1>
+                    <div class="flex_row">
+                        <div class="flex_row1">
+                            <img class="improveIcon" src="BloquesConPuntaIzqDer.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="improveTitle">Mejora Constante</h3>
+                                <h5 class="improveDescription">
+                                    Progresamos constantemente para brindar la mejor calidad de servicio
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex_row2">
+                            <img class="alliancesIcon" src="Personas.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="alliancesTitle">Alianzas Estratégicas</h3>
+                                <h5 class="alliancesDescription">
+                                    Contamos con alianzas que potencian nuestros servicios hacia el cliente
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex_row3">
+                            <img class="infoIcon" src="Compartir.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="infoTitle">Información Confiable</h3>
+                                <h5 class="infoDescription">
+                                    Brindamos informacion confiable y concreta acerca de algun caso importante o necesario.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex_row4">
+                        <div class="flex_row5">
+                            <img class="videoCallIcon" src="Videollamada.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="videoCallTitle">Videollamadas</h3>
+                                <h5 class="videoCallDescription">
+                                    Brindamos la forma te utilizar la tecnologia como un medio de comunicacion con los veterinarios
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex_row6">
+                            <img class="trackingIcon" src="Calendario.svg" alt="alt text" />
+                            <div class="flex_col1">
+                                <h3 class="trackingTitle">Time Tracking</h3>
+                                <h5 class="trackingDescription">
+                                    Estamos al día en el cuidado de tu mascota, impulsaremos tu conocimiento acerca de sus citas.
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="flex_row7">
+                            <img class="paymentsIcon" src="TarjetaConCorazon.svg" alt="alt text" />
+                            <div class="flex_col2">
+                                <h3 class="paymentsTitle">Pagos que se adaptan a ti</h3>
+                                <h5 class="paymentsDescription">Contamos con multiples metodos de pago que se adecuan a ti.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socialProof">
+                        <img class="socialIcon1" src="CirculoBlancoGrande.svg" alt="alt text" /><img class="socialIcon2" src="CirculoBlancoGrande.svg" alt="alt text" /><img class="socialIcon3" src="CirculoBlancoGrande.svg" alt="alt text" />
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="testimonios">
+            <div class="main-container2" style="--src:url(.FondoTurquesaNegro.png)">
+                <div class="rectangle">
+                  <span class="remote-teams">Nuestros Testimonios y Reseñas</span>
+                  <div class="wrapper">
+                    <div class="rectangle-1"></div>
+                    <div class="oval"></div>
+                    <span class="span-omg"
+                      >“Me agrada saber que la veterinaria a la que voy cuenta con
+                      servicio de movilidad”</span
+                    ><span class="span-isaac-olson">Shirley Sueldo</span>
+                  </div>
+                  <div class="copy">
+                    <div class="rectangle-2"></div>
+                    <span class="omg-believable"
+                      >“Gracias a esta iniciativa contacto con mas clientes y puedo
+                      atender a mas mascotas, por ello considero que la iniciativa si
+                      funciona”</span
+                    >
+                    <div class="oval-3"></div>
+                    <span class="barry-young">Brian Lopez</span>
+                  </div>
+                  <div class="copy-4">
+                    <div class="rectangle-5"></div>
+                    <span class="text-6"
+                      >“Tengo mas confianza en veterinarios que cuentan con años de
+                      experiencia y siempre revisan cada detalle de mi mascota”</span
+                    >
+                    <div class="pic-2"></div>
+                    <span class="text-7">Yolanda Guamantín</span>
+                  </div>
+                  <div class="wrapper-3">
+                    <span class="text-8">Read more reviews</span>
+                    <div class="tail-right"></div>
+                  </div>
+                </div>
+              </div>
+		</section>
+        <section id="video">
+            <div class="main-container-video">
+                <div class="rectangleE">
+                  <div class="text">
+                    <span class="video-explicativo-petwellness"
+                      >Video Explicativo de PetWellness</span
+                    ><span class="main-features-benefits"
+                      >A continuación, te mostraremos un video donde el equipo de
+                      desarrollo de PetWellness explica brevemente las principales
+                      caracteristicas y beneficios que tiene nuestra plataforma :)
+                      </span>
+                  </div>
+                  <div class="rectangle-video">
+                    <iframe src="https://www.youtube.com/embed/L5XSgFC4_9s" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section id="precios">
+            <div class="main-container-precios">
+              <div class="root-precios">
+                <div class="background-precios">
+                  <span class="precios-precios">Precios</span>
+                  <span class="dos-tipos-servicio-precios">
+                    Poseemos dos tipos de servicio, el de Usuario VIP y el de
+                    Veterinario.
+                  </span>
+                  <div class="flex-row-ee-precios">
+                    <div class="groups-precios">
+                      <div class="background-1-precios">
+                        <span class="usuario-vip-precios">U S U A R I O V I P</span>
+                        <span class="recomendacion-se-precios">Recomendacion selectiva</span>
+                        <span class="prioridad-en-col-precios">Prioridad en colas de consultas</span>
+                        <span class="descuentosreservas-precios">Descuentos en reservas</span>
+                        <div class="button-precios">
+                          <button class="background-2-precios">
+                            <span class="obtener-vip-precios">Obtener VIP</span>
+                          </button>
+                        </div>
+                        <span class="number-30-precios">30</span>
+                        <span class="currency-s-precios">s./</span>
+                        <span class="per-month-precios">/mes</span>
+                      </div>
+                    </div>
+                    <div class="groups-3-precios">
+                      <div class="background-4-precios">
+                        <span class="veterinario-precios">V E T E R I N A R I O</span>
+                        <span class="publicidad-en-n-precios">
+                          Publicidad en nuestra plataforma</span>
+                        <div class="button-5-precios">
+                          <span class="apartado-exclusivo-precios">Apartado exclusivo</span>
+                        </div>
+                        <span class="aumenta-tu-clientela-precios">Aumenta tu clientela</span>
+                        <div class="button-precios">
+                          <button class="background-3-precios">
+                            <span class="afiliarse-ahora-precios">Afiliarse Ahora</span>
+                          </button>
+                        </div>
+                        <span class="number-35-precios">35</span>
+                        <span class="currency-s-precios">s./</span>
+                        <span class="per-month-precios">/mes</span>
+                      </div>
+                    </div>
+                    <div class="group-section-precios"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="imageGallerySection" id="galeria">
+            <div class="flexCol">
+                <div class="flexRow11">
+                    <div class="flexCol1">
+                        <h1 class="heroTitle">Galeria de imagenes</h1>
+                        <img class="imageHero" src="80150dfe1c6a203ad822421efe3d6d20.png" alt="alt text" />
+                    </div>
+                    <div class="contentBox">
+                        <h2 class="mediumTitle">
+                            Pantalla de inicio<br />La pantalla de inicio es la primera interfaz que se presenta al usuario al
+                acceder a un sitio web o aplicación móvil. Su diseño y funcionalidad son cruciales para crear una
+                primera impresión positiva y guiar al usuario hacia las acciones deseadas.
+                        </h2>
+                    </div>
+                </div>
+                <div class="flexRow1">
+                    <div class="contentBox1">
+                        <h2 class="mediumTitle1">
+                            Perfil de usuario:<br />El perfil de usuario es una sección de un sitio web o aplicación móvil donde los
+                usuarios pueden ver y editar su información personal
+                        </h2>
+                    </div>
+                    <img class="imageProfile" src="01f56d57adb5c491d32e65cd91e42a61.png" alt="alt text" />
+                </div>
+            </div>
+        </section>
+
+        <section class="clientListSection">
+            <div class="flexCol2">
+                <div class="flexRow2">
+                    <img class="image" src="892cb158fd94dd010beb32452149eb32.png" alt="alt text" />
+                    <div class="contentBox2">
+                        <h2 class="mediumTitle2">
+                            Listado de clientes para el veterinario:<br />El listado de clientes para el veterinario es una sección
+                de un software de gestión veterinaria donde se puede ver un registro de las consultas y los pacientes
+                atendidos.
+                        </h2>
+                    </div>
+                </div>
+                <div class="flexRow11">
+                    <div class="contentBox11">
+                        <h2 class="mediumTitle11">
+                            Formulario de reserva<br />En esta sección puedes ingresar los datos para realizar una reserva de
+                consulta veterinaria. Deberás seleccionar la fecha y hora disponibles, tanto para ti como para el
+                veterinario.
+                        </h2>
+                    </div>
+                    <img class="image1" src="ac42e7a841a0a29ef6498320d3b28468.png" alt="alt text" />
+                </div>
+            </div>
+        </section>
+
+        <section class="chatServiceSection">
+            <div class="flexCol3">
+                <div class="flexRow3">
+                    <img class="chatImage" src="bab278c293bf112e2ef401099640a239.png" alt="alt text" />
+                    <div class="chatContentBox">
+                        <h2 class="chatMediumTitle">
+                            Chat en Linea<br />En esta sección, los usuarios pueden acceder a nuestro servicio de chat en línea para
+                comunicarse directamente con un veterinario.
+                        </h2>
+                    </div>
+                </div>
+                <div class="flexRow4">
+                    <div class="mobileContentBox">
+                        <h2 class="mobileMediumTitle">
+                            En el movil <br />Versión Móvil Nuestra plataforma cuenta con una versión optimizada para dispositivos
+                móviles, brindando a los usuarios acceso ágil y conveniente a todos nuestros servicios. con la
+                diferencia que la barra de inicio no se muestra hasta que selecciones el icono de rayas verticales.
+                        </h2>
+                    </div>
+                    <img class="mobileImage" src="2cfe8e097e9e5e3646a1132db9115172.png" alt="alt text" />
+                </div>
+            </div>
+        </section>
+
+        <section class="projectInfoSection">
+            <div class="flexColumn">
+                <div class="flexRow5">
+                    <img class="imagePetWellness" src="1d94cd05b3d4b5598d3aee319779d64d.png" alt="alt text" />
+                    <div class="contentBox3">
+                        <h2 class="projectDescriptionTitle">
+                            Codigo:<br />Este código proporciona la base estructural para la página web de PetWellness, utilizando
+                HTML, CSS e imágenes. El equipo de desarrollo lo está implementando por etapas.
+                        </h2>
+                    </div>
+                </div>
+                <div class="flexRow6">
+                    <div class="contentBox4">
+                        <h2 class="githubDescriptionTitle">
+                            Github:<br />La página web de PetWellness se desarrollará mediante un proceso colaborativo en GitHub.
+                Cada integrante del equipo asignará una sección específica del código y la implementará de forma
+                individual. Posteriormente, el código individual de cada miembro se subirá a GitHub para su integración
+                en el proyecto final.
+                        </h2>
+                    </div>
+                    <img class="imageGithub" src="6c70e5b51b3b87e04c2a6c343d973d9e.png" alt="alt text" />
+                </div>
+                <div class="flexRow7">
+                    <img class="imageJira" src="27e729fa07eb44c3cb24faffc757a7a2.png" alt="alt text" />
+                    <div class="contentBox5">
+                        <h2 class="jiraDescriptionTitle">
+                            Jira:<br />La herramienta Jira se utilizará para que cada miembro del equipo del proyecto de desarrollo
+                de la página web de PetWellness registre sus avances y tareas completadas. Esto permitirá un seguimiento
+                centralizado del progreso individual y facilitará la colaboración entre los miembros del equipo.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main class="preguntas-frecuentes-new main">
+            <section class="helpSection" id="preguntas">
+                <div class="flexCol">
+                    <h1 class="heroTitle1">¿En que podemos ayudarte?</h1>
+                    <div class="flexCol1">
+                        <div class="flexCol2">
+                            <div class="contentBox-preguntas">
+                                <input class="highlightSearch" placeholder="Buscar">Buscar/>                 
+                                <img class="imageSearch" src="c4c3cc13c18f85357978ce4bf0376542.svg" alt="alt text" />
+                            </div>
+                            <img class="imageGeneral" src="572b70ec7f8fa9754574015f51bb3fc7.png" alt="alt text" />
+                        </div>
+                        <img class="imageSupport" src="ef12de1ca3f5627cab7da68fdb627f7f.png" alt="alt text" />
+                    </div>
+                    <h1 class="heroTitleFaq">Preguntas Frecuentes<br /></h1>
+                    <div class="contentBox-preguntas1">
+                        <div class="flexRow">
+                            <div class="flexCol3">
+                                <h2 class="mediumTitleAccountHelp">Ayuda sobre la cuenta</h2>
+                                <a class="highlightLogin" href="#inicio-sesion">Inicio de sesion</a>
+                                <a class="highlightProfileHelp" href="#ayuda-perfil">Ayuda sobre perfil<br /></a>
+                                <a class="highlightProfileSettings" href="#config-perfil">Configuracion de perfil</a>
+                                <a class="highlightSecurity" id="faq" href="#seguridad">Seguridad</a>
+                            </div>
+                            <div class="flexCol4">
+                                <h2 class="mediumTitlePaymentHelp">Ayuda sobre pagos</h2>
+                                <a class="highlightPaymentMethods" href="#payment">Metodos de pago</a>
+                                <h5 class="highlightPaymentHistory">Historial de pagos</h5>
+                                <h5 class="highlightPaymentManagement">Gestion de pagos</h5>
+                                <h5 class="highlightChargesHelp">Ayuda sobre cobros</h5>
+                            </div>
+                            <div class="flexCol5">
+                                <h2 class="mediumTitleBookingHelp">Ayuda sobre reservas</h2>
+                                <a class="highlightOnlineBookings" href="#reserva">Reservas online</a>
+                                <h5 class="highlightChatConsultations">Consultas por chat</h5>
+                                <h5 class="highlightRepository">Repositorio</h5>
+                                <h5 class="highlightVeterinarianInfo">Informacion acerca de veterinarios<br /></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="loginSection" id="inicio-sesion">
+                <h1 class="heroTitle">Inicio de sesión</h1>
+                <div class="backgroundBox" style="--src:url(.6c71ab43d6142266b28559bdbc1d72a1.svg)">
+                    <div class="buttonLayout">
+                        <img class="heroImage" src="b7c4001930e3a3b21b9a059f926f296b.png" alt="alt text" />
+                        <div class="navigationMenu">
+                            <h5 class="aboutUsHighlight">Acerca de</h5>
+                            <h5 class="servicesHighlight">Nuestros Servicios</h5>
+                            <h5 class="testimonialsHighlight">Testimonios</h5>
+                            <h5 class="pricingHighlight">Precios</h5>
+                            <h5 class="faqHighlight">Preguntas Frecuentes</h5>
+                            <h5 class="contactHighlight">Contacto</h5>
+                        </div>
+                        <h5 class="loginHighlight">Iniciar sesión</h5>
+                        <div class="callToAction">
+                            <button class="registerButton">Regístrese</button><img class="decorativeImage" src="d90f5dc28c4115ea5458bc4901602dd0.svg" alt="alt text" />
+                        </div>
+                    </div>
+                </div>
+                <div class="loginInstructions">
+                    <img class="instructionImage1" src="8c8706f6fe159ca6cd9f748990a57f62.png" alt="alt text" /><img class="instructionImage2" src="d93778eaa6d65a9b9263021d36eebb4e.svg" alt="alt text" /><img class="instructionImage3" src="33c0ab54ee662890b8e91031b4c9bfd0.svg" alt="alt text" /><img class="instructionImage4" src="39d1e9839d9f555ee03ba7e3e3802689.svg" alt="alt text" />
+                    <h1 class="instructionText">
+                        Para iniciar sesion solo <br />debes dar click en boton de <br />iniciar sesion<br /><br />luego te
+                aparecera una <br />pantalla donde debes <br />ingresar email y contraseña<br /><br />entonces les das click
+                a <br />iniciar sesión<br />
+                    </h1>
+                </div>
+            </section>
+    
+            <section class="profileHelpSection" id="ayuda-perfil" style="--src:url(.61f01e055885433e35f7ac0bec88a230.png)">
+                <div class="contentBox-preguntas2">
+                    <h1 class="infoTitle">
+                        Para tu perfil solo aparecerá <br /><br />tu nombre, apellido, y foto si <br /><br />si eres un veterinario
+                si te <br /><br />aparece la ubicación de tu <br /><br />clínica veterinaria
+                    </h1>
+                    <img class="profileImage1" src="7686feb4a59f7bd4503b8794e7e80bc8.svg" alt="alt text" /><img class="profileImage2" src="ec4d0a096d8bfe33dccdd9219fd3a186.svg" alt="alt text" />
+                    <h1 class="heroTitle2">Ayuda con tu perfil</h1>
+                </div>
+            </section>
+    
+            <section class="profileConfigSection" id="config-perfil">
+                <div class="contentBox-preguntas3">
+                    <h1 class="heroTitle3">Configuración del perfil</h1>
+                    <h1 class="profileDescriptionTitle">
+                        Para tu perfil solo aparecerá <br /><br />tu nombre, apellido, y foto si <br /><br />si eres un veterinario
+                si te <br /><br />aparece para configurarlo
+                    </h1>
+                    <img class="profileImage11" src="7686feb4a59f7bd4503b8794e7e80bc8.svg" alt="alt text" /><img class="profileImage21" src="5b11435580d0d5658a045e0b5ff6a86c.svg" alt="alt text" /><img class="profileImage3" src="60c415c393c7c63d188725b0ab946c63.png" alt="alt text" /><img class="profileImage4" src="a482af36895ed0317e01f791dff0694b.png" alt="alt text" />
+                </div>
+            </section>
+    
+            <section class="securitySection" id="seguridad">
+                <div class="flexCol6">
+                    <h1 class="heroTitle4">Seguridad</h1>
+                    <div class="contentBox-preguntas4">
+                        <h1 class="titleBox_box">
+                            <span class="titleBox"
+                    ><span class="titleBox_span0"
+                      >En el caso de la <br /><br />seguridad, <br /><br />que la contraseña y email es <br /><br />lo que
+                      te da </span><span class="titleBox_span1">confianza</span><span class="titleBox_span2">
+                      <br /><br />ademas de que para las clínicas<br /><br />que recomendemos seran <br /><br />evaluadas
+                      para que no haya <br /><br />problema</span></span>
+                        </h1>
+                        <img class="image18" src="1fd293acf992d15fda0df82adfbba517.svg" alt="alt text" /><img class="image19" src="0092333963d7b1269ef25c6ba5538a14.svg" alt="alt text" /><img class="image20" src="4e8ec00695d1ceed6ab60fc2ec148ee5.png" alt="alt text" />
+                    </div>
+                    <h1 class="heroTitle21">Localizar Veterinarias</h1>
+                    <img class="image21" src="d8bb0fb3da44d6a409f415d12745e513.png" alt="alt text" />
+                </div>
+            </section>
+    
+            <section class="paymentSection" id="payment">
+                <div class="contentBox-preguntas5">
+                    <h1 class="paymentTitle">
+                        Para los pagos solo tendras<br /><br />problemas con ello si son <br /><br />veterinarios o clientes vip<br /><br />En
+                cuanto alos metodo, historial <br /><br />se poidra ver en el prefil
+                    </h1>
+                    <img class="paymentImage1" src="b2a238242220802c45e87c2e18086a99.svg" alt="alt text" /><img class="paymentImage2" src="17c8edb2404ab148f94b1d5596b41f91.svg" alt="alt text" /><img class="paymentImage3" src="d9c500552558271c285c646ffc843f9f.svg" alt="alt text" /><img class="paymentImage4" src="979ef2b542937fc10f7d65852c27e4f4.png" alt="alt text" /><img class="paymentImage5" src="cfc4ab20f3a47395738332c1c7e67dd7.png" alt="alt text" /><img class="paymentImage6" src="555e9361d7c328e4365105fe39c2d1bc.png" alt="alt text" />
+                    <h1 class="heroTitle5">Pagos</h1>
+                </div>
+            </section>
+    
+            <section class="reservationSection" id="reserva">
+                <div class="contentBox-preguntas6">
+                    <h1 class="vetProfileInfoTitle">
+                        Las reservas se dan al ingresar <br /><br />al perfil del veterinario <br /><br />selecciona las horas y
+                dias <br /><br />disponibles o si desear hablar ya <br /><br />sea via mensaje, llamada o
+                        <br /><br />videollamada<br /><br /><br />Tambien se puede ver su <br /><br />información al entrar en su
+                perfil
+                    </h1>
+                    <h1 class="reservationInstructionsTitle">
+                        Para reservar debe seleccionar <br /><br />al veterinario o dar click en <br /><br />consultas veterinarias
+                    </h1>
+                    <h1 class="historyInfoTitle">En el caso de repositorio <br /><br />se guarda en el historial</h1>
+                    <img class="mainImage" src="d9746d80d22f25c042aaccc41f57eaea.png" alt="alt text" /><img class="icon1" src="6b0d74ed0017af9ae88a4a42c58dd9b9.svg" alt="alt text" /><img class="icon2" src="3478c2d58bef737430d723d5e169eb9f.svg" alt="alt text" /><img class="profileImage" src="e317434aac3c9a32855f6cb685ebe5cc.png" alt="alt text" /><img class="icon3" src="4a4bb2b3e8aeff0c5c8a874746640e93.svg" alt="alt text" /><img class="icon4" src="fe9188b0b0a99b0d5be52b4c58862730.svg" alt="alt text" /><img class="icon5" src="c6d23355b6b88f15d8d65a230d5ca377.svg" alt="alt text" />
+                    <h1 class="heroTitle6">Reservas</h1>
+                </div>
+            </section>
+    
+        </main>
+     
+        <div class="container" id = "formulario">
+            <aside class="sidebar">
+                <nav>
+                    <ul>
+                        <li>
+                            <h2>Formulario de Registro</h2>
+                            <p>Registra tu correo electrónico para recibir información necesaria y detallada semanalmente.</p>
+                            <label for="registro-tab" class="tab">Registro</label>
+                        </li>
+                        <li>
+                            <h2>Formulario de Contacto</h2>
+                            <p>Ingrese la razón por la cual quiere contactarnos y lo atenderemos lo más pronto posible.</p>
+                            <label for="contacto-tab" class="tab">Contacto</label>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+      
+            <main class="main-content">
+              <input type="radio" id="registro-tab" name="tab">
+              <input type="radio" id="contacto-tab" name="tab">
+      
+              <section id="formularios" class="form-section">
+                  <div class="form-container" id="form-registro">
+                      <h2>Formulario de Registro</h2>
+                      <form id="registroForm">
+                          <label for="regNombre">Nombre:</label>
+                          <input type="text" id="regNombre" name="regNombre" required>
+                          <label for="regEmail">Correo Electrónico:</label>
+                          <input type="email" id="regEmail" name="regEmail" required>
+                          <button type="submit">Registrarse</button>
+                      </form>
+                  </div>
+      
+                  <div class="form-container" id="form-contacto">
+                      <h2>Formulario de Contacto</h2>
+                      <form id="contactoForm">
+                          <label for="conNombre">Nombre:</label>
+                          <input type="text" id="conNombre" name="conNombre" required>
+                          <label for="conEmail">Correo Electrónico:</label>
+                          <input type="email" id="conEmail" name="conEmail" required>
+                          <label for="conAsunto">Asunto:</label>
+                          <input type="text" id="conAsunto" name="conAsunto" required>
+                          <label for="conMensaje">Descripción:</label>
+                          <textarea id="conMensaje" name="conMensaje" rows="4" required></textarea>
+                          <button type="submit">Enviar</button>
+                      </form>
+                  </div>
+              </section>
+          </main>
+        </div>
+        <div class = "main-content">
+            <section class="casos-exito" id = "casos">
+            <div class="intro">
+                <h2>Casos de Éxito</h2>
+                <p>Nuestra aplicación ha ayudado a muchas personas a alcanzar sus metas. A continuación, puedes ver algunos testimonios y videos de nuestros usuarios satisfechos.</p>
+            </div>
+            <div class="caso">
+               
+             <img src="img/Vet.jpg" alt="Usuario 1">
+                    
+         
+                <blockquote>
+                    <p>"Gracias a esta aplicacion, he atraido mas clientes para ofrecer mis servicios como veterinario."</p>
+                    <cite>- Juan Pérez</cite>
+                </blockquote>
+            </div>
+            <div class="caso">
+                <img src="img/Girl.jpg" alt="Usuario 1">
+                   
+              
+                <blockquote>
+                    <p>"Me encanta, estuve tiempo buscando este tipo de servicio ya que no cuento con veterinaria cercana y confiable."</p>
+                    <cite>- Ana García</cite>
+                </blockquote>
+            </div>
+        </section></div>
+         
+      
+    </main>
+
+</body>
+</html>
