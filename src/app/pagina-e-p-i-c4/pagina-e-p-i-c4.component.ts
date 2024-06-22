@@ -15,7 +15,9 @@ export class PaginaEPIC4Component implements OnInit {
 
   constructor(private router: Router) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.loadAllClinics();
+  }
 
   onSearchResults(clinics: any[]) {
     this.clinics = clinics;
@@ -24,5 +26,11 @@ export class PaginaEPIC4Component implements OnInit {
 
   viewDetails(clinic: any) {
     this.router.navigate(['/clinic-detail', clinic.name]);
+  }
+
+  loadAllClinics() {
+    this.clinics = [
+      // Datos de las clínicas...
+    ];
   }
 }

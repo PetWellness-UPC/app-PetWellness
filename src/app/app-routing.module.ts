@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SearchClinicMapComponent } from './search-clinic-map/search-clinic-map.component';
+import { PaginaEPIC4Component } from './pagina-e-p-i-c4/pagina-e-p-i-c4.component';
+import { ClinicPageComponent } from './clinic-page/clinic-page.component';
 
 const routes: Routes = [
-  //{ path: 'search-clinic', component: SearchClinicComponent },
+  { path: '', component: PaginaEPIC4Component },
+  { path: 'clinic-detail/:name', component: ClinicPageComponent },
+  // Otras rutas
 ];
 
 @NgModule({

@@ -1,1 +1,7 @@
-<p>clinic-page works!</p>
+<div class="clinic-details">
+    <h1>{{ clinic.name }}</h1>
+    <img [src]="clinic.imageUrl" alt="Foto de {{ clinic.name }}">
+    <p>{{ clinic.description }}</p>
+    <app-search-clinic-map></app-search-clinic-map>
+  </div>
+  

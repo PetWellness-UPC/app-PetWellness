@@ -23,16 +23,18 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { SearchClinicGridListComponent } from './search-clinic-grid-list/search-clinic-grid-list.component';
 import { ClinicPageComponent } from './clinic-page/clinic-page.component';
 
+import { GoogleMapsModule } from '@angular/google-maps';
+
 @NgModule({
   declarations: [
     AppComponent,
     PaginaEPIC4Component,
-    ClinicPageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
+    GoogleMapsModule,
     FormsModule,
     ReactiveFormsModule,
     MatInputModule,    
@@ -42,7 +44,8 @@ import { ClinicPageComponent } from './clinic-page/clinic-page.component';
     MatFormFieldModule,
     SearchClinicMatCardComponent,
     MatGridListModule,
-    SearchClinicGridListComponent
+    SearchClinicGridListComponent,
+    ClinicPageComponent,
   ],
   providers: [
     provideAnimationsAsync()

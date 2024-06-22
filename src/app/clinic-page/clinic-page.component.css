@@ -4,13 +4,8 @@
   }
   
   .clinic-details img {
-    max-width: 100%;
+    width: 300px;
     height: auto;
-  }
-  
-  .map-container {
-    margin-top: 20px;
-    width: 100%;
-    height: 400px;
+    margin-bottom: 20px;
   }
   
