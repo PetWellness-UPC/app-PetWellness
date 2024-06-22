@@ -2,3 +2,36 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.custom-autocomplete {
+    width: 100%;
+  }
+  
+  .custom-autocomplete .mat-form-field {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0 8px;
+    margin: 0;
+  }
+  
+  .custom-autocomplete .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #7f9c00; /* Match the color with the green bar */
+  }
+  
+  .custom-autocomplete .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    border-width: 2px;
+  }
+  
+  .custom-autocomplete .mat-input-element {
+    color: black; /* Set text color to black */
+  }
+  
+  .custom-autocomplete .mat-autocomplete-panel {
+    background-color: white;
+  }
+  
+  .custom-autocomplete .mat-option {
+    color: black;
+  }
+  

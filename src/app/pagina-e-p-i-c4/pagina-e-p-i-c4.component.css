@@ -13,29 +13,31 @@
 
 :host,
 
-
 .seccionBusquedaArticulos {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #f2fedc;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 20px;
 }
 
 .bG3 {
   position: relative;
   display: flex;
-  flex-direction: row;  
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center; /* Center the content inside the green bar */
   align-items: center;
   border-radius: 14.5469px;
   background-color: #7f9c00;
   box-shadow: 0px 78.5531px 77.0984px -33.4578px #161c2d23;
   width: 50%;
-  height: 75px;
+  height: auto; /* Allow height to adjust based on content */
+  margin-bottom: 20px;
+  padding: 10px; /* Ensure there's some padding inside the green bar */
 }
 
 .buttonSolidStyle4 {
@@ -101,11 +103,11 @@
 }
 
 .inputSelectWithLabelCopy {
-  position: relative;
+  display: flex;
   flex-direction: column;
-  width: 30%;
-  height: 50px;
+  align-items: center;
 }
+
 .input2 {
   position: absolute;
   left: 0;
@@ -178,4 +180,51 @@
 
 .example-full-width {
   width: 30%;
+}
+
+.clinics-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.clinic-card {
+  flex: 1 1 calc(33.333% - 32px);
+  max-width: calc(33.333% - 32px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .clinic-card {
+    flex: 1 1 calc(50% - 32px);
+    max-width: calc(50% - 32px);
+  }
+}
+
+@media (max-width: 768px) {
+  .clinic-card {
+    flex: 1 1 calc(100% - 32px);
+    max-width: calc(100% - 32px);
+  }
+}
+
+@media (max-width: 480px) {
+  .clinic-card {
+    flex: 1 1 calc(100% - 16px); /* Slightly adjust gap for smaller screens */
+    max-width: calc(100% - 16px);
+  }
+}
+
+.clinics-grid.search-active .clinic-card {
+  flex: 0 1 300px;
+  max-width: 300px;
 }

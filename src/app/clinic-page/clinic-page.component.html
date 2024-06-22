@@ -1,0 +1,9 @@
+<div class="clinic-details">
+    <h1>{{ clinicDetails.name }}</h1>
+    <div class="clinic-images">
+      <img *ngFor="let image of clinicDetails.images" [src]="image" alt="{{ clinicDetails.name }}">
+    </div>
+    <p>{{ clinicDetails.description }}</p>
+    <app-search-clinic-map [latitude]="clinicDetails.location.lat" [longitude]="clinicDetails.location.lng"></app-search-clinic-map>
+  </div>
+  

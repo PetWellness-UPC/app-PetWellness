@@ -1,0 +1,16 @@
+<form [formGroup]="stateForm" class="autocomplete-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Buscar Veterinaria</mat-label>
+      <input type="text"
+             matInput
+             formControlName="stateGroup"
+             required
+             [matAutocomplete]="autoGroup">
+      <mat-autocomplete #autoGroup="matAutocomplete">
+        <mat-option *ngFor="let clinic of filteredClinics | async" [value]="clinic.name">
+          {{clinic.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
+  

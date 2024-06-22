@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
-import type { OnInit } from '@angular/core';
-import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {MatInputModule} from '@angular/material/input';
+import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'epic01-pagina-e-p-i-c4',
@@ -9,8 +8,21 @@ import {MatInputModule} from '@angular/material/input';
   styleUrls: ['./pagina-e-p-i-c4.component.css'],
 })
 export class PaginaEPIC4Component implements OnInit {
-  constructor() {}
-  ngOnInit(): void {}
   myControl = new FormControl('');
-  options: string[] = ['One', 'Two', 'Three'];
+  clinics: any[] = [];
+  allClinics: any[] = []; // Store all clinics
+  isSearchActive = false;
+
+  constructor(private router: Router) {}
+
+  ngOnInit(): void {}
+
+  onSearchResults(clinics: any[]) {
+    this.clinics = clinics;
+    this.isSearchActive = clinics.length < this.allClinics.length;
+  }
+
+  viewDetails(clinic: any) {
+    this.router.navigate(['/clinic-detail', clinic.name]);
+  }
 }
