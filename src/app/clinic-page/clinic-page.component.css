@@ -1,11 +1,30 @@
 .clinic-details {
-    text-align: center;
-    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f2fedc;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
   }
   
   .clinic-details img {
     width: 300px;
     height: auto;
     margin-bottom: 20px;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #7f9c00;
+    color: white;
+  }
+  
+  .back-button:hover {
+    background-color: #6a8400;
   }
   

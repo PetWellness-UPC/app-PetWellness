@@ -5157,10 +5157,7 @@ export {
   TAB,
   ENTER,
   ESCAPE,
-  SPACE,
-  LEFT_ARROW,
   UP_ARROW,
-  RIGHT_ARROW,
   DOWN_ARROW,
   hasModifierKey,
   coerceBooleanProperty,
@@ -5221,4 +5218,4 @@ export {
   MatRippleLoader,
   _MatInternalFormField
 };
-//# sourceMappingURL=chunk-654JRVRA.js.map
+//# sourceMappingURL=chunk-F2VOT5WC.js.map

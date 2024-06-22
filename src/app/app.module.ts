@@ -25,6 +25,11 @@ import { ClinicPageComponent } from './clinic-page/clinic-page.component';
 
 import { GoogleMapsModule } from '@angular/google-maps';
 
+import { MatIconModule } from '@angular/material/icon';
+
+import { ClinicService } from './services/clinic.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,8 +51,10 @@ import { GoogleMapsModule } from '@angular/google-maps';
     MatGridListModule,
     SearchClinicGridListComponent,
     ClinicPageComponent,
+    MatIconModule
   ],
   providers: [
+    ClinicService,
     provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]

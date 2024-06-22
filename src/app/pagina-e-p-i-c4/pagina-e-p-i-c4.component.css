@@ -200,6 +200,7 @@
   justify-content: space-between;
   padding: 24px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /*Background de los card*/
   margin: auto;
 }
 

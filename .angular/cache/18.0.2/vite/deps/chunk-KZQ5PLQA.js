@@ -4070,6 +4070,7 @@ function provideClientHydration(...features) {
 var VERSION = new Version("18.0.1");
 
 export {
+  HttpClient,
   BrowserDomAdapter,
   BrowserGetTestability,
   EVENT_MANAGER_PLUGINS,
@@ -4123,4 +4124,4 @@ export {
    * License: MIT
    *)
 */
-//# sourceMappingURL=chunk-RMKTAKQZ.js.map
+//# sourceMappingURL=chunk-KZQ5PLQA.js.map
