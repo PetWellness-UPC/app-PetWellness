@@ -1,8 +1,13 @@
 <div class="container">
-    <div class="map-container">
-      <google-map height="400px" width="100%" [options]="options">
-        <map-marker [position]="{lat: lat, lng: lng}"></map-marker>
+  <div class="map-container">
+      <google-map height="400px"
+                  width="100%"
+                  [options]="options">
+          @if (directionsResults$ | async; as directionsResults) {
+              <map-directions-renderer [directions]="directionsResults"/>
+          }
+          <map-heatmap-layer></map-heatmap-layer>
+          <map-traffic-layer></map-traffic-layer>
       </google-map>
-    </div>
   </div>
-  
+</div>
