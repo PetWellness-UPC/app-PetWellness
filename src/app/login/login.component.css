@@ -7,6 +7,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh; /* Altura de toda la ventana */
+  position: relative; /* Asegura que el header se posicione correctamente */
+}
+header{
+  position: absolute; /* Posiciona el header de forma absoluta */
+  top: 0; /* Alinea al top */
+  left: 0; /* Alinea a la izquierda */
+  padding: 10px; /* Añade un poco de padding */
+}
+header a {
+  display: flex;
+  align-items: center;
 }
 
 .verification-message {
