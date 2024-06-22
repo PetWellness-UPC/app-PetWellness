@@ -1,0 +1,72 @@
+/* Estilos generales */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contenedor principal para asegurar que cubre toda la pantalla */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% de la altura de la ventana gráfica */
+    background-color: #f9fbdc; /* Fondo que cubre toda la pantalla */
+  }
+  
+  /* Estilo de las tarjetas */
+  .card {
+    background-color: #f4f9e9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 40px; /* Ajustar el padding para hacer las tarjetas más grandes */
+    text-align: center;
+    width: 300px; /* Ajustar el ancho de las tarjetas */
+    margin: 20px; /* Espacio entre las tarjetas */
+  }
+  
+  .card h2 {
+    color: #99c93e;
+    font-size: 2em; /* Ajustar el tamaño de la fuente */
+  }
+  
+  .price {
+    font-size: 2.5em; /* Ajustar el tamaño de la fuente */
+    color: #333;
+  }
+  
+  .price span {
+    font-size: 0.5em;
+    color: #666;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 15px 0; /* Ajustar el margen entre los elementos de la lista */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 30px; /* Ajustar el tamaño del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em; /* Ajustar el tamaño de la fuente del botón */
+    margin-top: 20px;
+  }
+  
+  .btn.vip {
+    background-color: #00a1b9;
+    color: #fff;
+  }
+  
+  .btn.vet {
+    background-color: #8bc34a;
+    color: #fff;
+  }
+  
