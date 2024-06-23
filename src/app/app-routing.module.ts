@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { Home2Component } from './home2/home2.component';
 import { PaginaEPIC3Component } from './pagina-e-p-i-c3/pagina-e-p-i-c3.component';
 import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.component';
+import { PagoUsuarioVipComponent } from './pago-usuario-vip/pago-usuario-vip.component';
+import { PagoVeterinarioComponent } from './pago-veterinario/pago-veterinario.component';
+import { PreciosComponent } from './precios/precios.component';
 
 const routes: Routes = [
   { path: 'clinic-detail/:name', component: ClinicPageComponent },
@@ -18,7 +21,10 @@ const routes: Routes = [
   { path: 'home2', component: Home2Component},
   { path: 'epic01-pagina-e-p-i-c3', component: PaginaEPIC3Component},
   {path: 'epic01-pagina-e-p-i-c1', component: PaginaEPIC1Component},
-  { path: 'epic4', component: PaginaEPIC4Component }
+  { path: 'epic4', component: PaginaEPIC4Component },
+  { path: 'pago-usuario-vip', component: PagoUsuarioVipComponent },
+  { path: 'pago-veterinario', component: PagoVeterinarioComponent },
+  { path: 'precios', component: PreciosComponent }
 ];
 
 @NgModule({
