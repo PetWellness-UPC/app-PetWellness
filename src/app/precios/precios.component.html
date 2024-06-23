@@ -1,6 +1,11 @@
 <body>
     <header>
-      <a href="/"><img class="header__logoImage" src="assets/HeaderLogo.png" alt="alt text" /></a>
+      <div class="header__content">
+        <a href="/" class="header__logo"><img class="header__logoImage" src="HeaderLogo.png" alt="alt text" /></a>
+        <nav>
+          <a routerLink="/" class="header__link">Inicio</a>
+        </nav>
+      </div>
     </header>
     <div class="container">
       <div class="card">
@@ -11,7 +16,7 @@
           <li>Prioridad en colas de consultas</li>
           <li>Descuentos reservas</li>
         </ul>
-        <button class="btn vip">Obtener VIP</button>
+        <button class="btn vip" (click)="navigateTo('pago-usuario-vip')">Obtener VIP</button>
       </div>
       <div class="card">
         <h2>VETERINARIO</h2>
@@ -21,7 +26,7 @@
           <li>Apartado exclusivo</li>
           <li>Aumenta tu clientela</li>
         </ul>
-        <button class="btn vet">Afiliarse Ahora</button>
+        <button class="btn vet" (click)="navigateTo('pago-veterinario')">Afiliarse Ahora</button>
       </div>
     </div>
   </body>

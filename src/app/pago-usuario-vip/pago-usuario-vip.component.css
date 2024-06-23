@@ -1,0 +1,78 @@
+body {
+    background-color: #007a91; /* Color de fondo para toda la página */
+    font-family: Arial, sans-serif; /* Fuente predeterminada para todo el cuerpo */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ajusta la altura para que ocupe toda la pantalla visible */
+    margin: 0; /* Elimina el margen predeterminado del body */
+  }
+  
+  .pago-form {
+    background-color: #f4f9e9; /* Color de fondo del formulario */
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 90%; /* Ancho máximo del formulario */
+    max-width: 400px; /* Máximo ancho del formulario para mantenerlo centrado */
+    margin: auto; /* Centra el formulario horizontalmente */
+  }
+  
+  .pago-form h2 {
+    color: #99c93e; /* Color del título del formulario */
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: calc(100% - 20px); /* Ajusta el ancho del input para compensar el padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .btn.submit {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #00a1b9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn.submit:hover {
+    background-color: #007a91; /* Cambio de color al pasar el cursor */
+  }
+  
+
+  .mensaje-exito {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px; /* Ajusta el margen según sea necesario */
+    color: #c2e4d9;
+  }
+  
+  /* Estilos para el icono de checkmark */
+  .mensaje-exito img {
+    width: 500px; /* Ajusta el tamaño del icono según sea necesario */
+    height: 500px; /* Ajusta el tamaño del icono según sea necesario */
+    display: block;
+    margin: 0 auto 10px; /* Centra el icono horizontalmente y añade margen inferior */
+  }
