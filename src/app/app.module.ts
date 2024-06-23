@@ -8,6 +8,8 @@ import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { Home2Component } from './home2/home2.component';
+import {PaginaEPIC3Component} from './pagina-e-p-i-c3/pagina-e-p-i-c3.component'
+import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { Home2Component } from './home2/home2.component';
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    Home2Component
+    Home2Component,
+    PaginaEPIC3Component,
+    PaginaEPIC1Component
   ],
   imports: [
     BrowserModule,
