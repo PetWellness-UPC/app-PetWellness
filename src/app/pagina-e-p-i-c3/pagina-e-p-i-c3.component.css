@@ -1,0 +1,1148 @@
+:host,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  flex-shrink: 0;
+  text-decoration: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+  display: flex;
+}
+
+ul,
+ol {
+  text-indent: 0;
+  padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+  content: '';
+  display: inline-block;
+}
+
+img {
+  object-fit: contain;
+}
+
+svg {
+  overflow: visible;
+}
+
+:host {
+  width: min-content;
+  height: min-content;
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.sectionStart {
+  position: relative;
+  width: 1446px;
+  height: 738px;
+}
+.bg3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1446px;
+  height: 738px;
+  background-color: #f2fedc;
+}
+.startImage {
+  position: absolute;
+  left: 65.9751%;
+  right: 6.639%;
+  top: 23.9837%;
+  bottom: 22.3577%;
+  width: 396px;
+  height: 396px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.titlesAndButtons {
+  position: absolute;
+  left: 6.639%;
+  right: 41.148%;
+  top: 23.9837%;
+  bottom: 4.3787%;
+  width: 755px;
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22.2742px;
+}
+.text {
+  width: 755px;
+  height: min-content;
+  flex-direction: column;
+  gap: 11.1371px;
+}
+.entiendoTuPreocupacionPorTuMas {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.textBlock {
+  color: #000;
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.textBlock2 {
+  margin-top: 0;
+}
+.labelWrapper {
+  font-size: 60px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #7f9c00;
+  font-size: 60px;
+  line-height: 66px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.teOfrecemosConsultasVeterinari {
+  color: #717171;
+  font-size: 24px;
+  line-height: 26px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.button1 {
+  position: relative;
+  width: 569px;
+  height: 79px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 32.3907%;
+  bottom: -0.7451%;
+  border-radius: 11.6375px;
+  background-color: #7f9c00;
+}
+.buttonName {
+  color: #fff;
+  font-size: 36px;
+  line-height: 46.55px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.8728px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - -9.5886px);
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.button2 {
+  position: relative;
+  width: 569px;
+  height: 78px;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle2 {
+  position: absolute;
+  left: 1.2302%;
+  right: 0;
+  top: 38.8647%;
+  bottom: -0.4031%;
+  border-radius: 11.6375px;
+  background-color: #7f9c00;
+}
+.buttonName2 {
+  color: #fff;
+  font-size: 36px;
+  line-height: 46.55px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.8728px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - -11.8145px);
+  height: 41px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.header {
+  position: absolute;
+  left: 0;
+  right: 0.4149%;
+  top: 0;
+  bottom: 89.1599%;
+  width: 1440px;
+  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 11.1371px 0;
+  background-color: #e7efb3;
+  box-shadow: 0px 2.7843px 5.5686px 0px #abbed166;
+}
+.petWellness_LOGO {
+  position: absolute;
+  left: 27px;
+  top: 5px;
+  width: 220px;
+  height: 70px;
+  background-image: url('/assets/petWellness_LOGO.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  position: absolute;
+  left: 205px;
+  top: calc(50% - 2px);
+  width: 231px;
+  height: 58px;
+  transform: translateY(-50%);
+}
+.headerMenu {
+  position: absolute;
+  left: 621px;
+  top: 32px;
+  width: min-content;
+  height: min-content;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.menu {
+  width: min-content;
+  height: min-content;
+}
+.menu2 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 5.5686px;
+  transform: matrix(1, -0.0014, 0.0014, 1, 0, 0);
+}
+.accederAInformacion {
+  color: #000;
+  font-size: 15px;
+  line-height: 16.7057px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.menu3 {
+  width: min-content;
+  height: min-content;
+  align-items: center;
+  gap: 5.5686px;
+}
+.localizarClinicasCercanas {
+  color: #000;
+  font-size: 15px;
+  line-height: 16.7057px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 204px;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.component1 {
+  position: absolute;
+  left: 1273px;
+  top: 22px;
+  width: 214px;
+  height: 36px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.signOut {
+  position: absolute;
+  left: -40.1869%;
+  right: 90.6542%;
+  top: 27.7778%;
+  bottom: 27.7778%;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cerrarSesion {
+  color: #7f9c00;
+  font-size: 15px;
+  line-height: 16.7057px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.oval {
+  position: absolute;
+  left: 93.5417%;
+  right: 1.875%;
+  top: 8.75%;
+  bottom: 8.75%;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sectionsSearchBars {
+  position: relative;
+  width: 1452px;
+  height: 738px;
+}
+.bg2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1452px;
+  height: 738px;
+  background-color: #f2fedc;
+}
+.bG {
+  position: absolute;
+  left: 12.8099%;
+  right: 40.3581%;
+  top: 62.8726%;
+  bottom: 28.0304%;
+  border-radius: 14.5469px;
+  background-color: #7f9c00;
+  box-shadow: 0px 78.5531px 77.0984px -33.4578px #161c2d23;
+}
+.buttonCancelar {
+  position: absolute;
+  left: 43.0441%;
+  right: 41.2269%;
+  top: 64.9719%;
+  bottom: 30.134%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buttonCancel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #e7efb3;
+}
+.buttonName3 {
+  color: #000;
+  font-size: 24.7297px;
+  line-height: 46.55px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.8728px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 0.4671px);
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.dropdownMenu {
+  position: absolute;
+  left: 14.6006%;
+  right: 60.3532%;
+  top: 64.9719%;
+  bottom: 30.2299%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.bGMain {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #fff;
+}
+.bGBorder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1.4547px #e7e9ed;
+  outline-offset: -1px;
+  border-radius: 11.6375px;
+}
+.selectName {
+  color: #161c2d;
+  font-size: 21.8203px;
+  line-height: 37.8219px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.1455px;
+  position: absolute;
+  left: 26.1844px;
+  top: calc(50% - -0.7511px);
+  width: 280.7546px;
+  height: min-content;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.iconsDropdownSolid {
+  position: absolute;
+  left: 88%;
+  right: 4.8%;
+  top: 32%;
+  bottom: 32%;
+  overflow: visible;
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cancelarUnaCitaConsultaVeterin {
+  color: #000;
+  font-size: 40px;
+  line-height: 16.7057px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 11.9146%;
+  right: 34.1598%;
+  top: 53.6585%;
+  bottom: 37.1274%;
+  width: 783px;
+  height: 68px;
+  justify-content: center;
+  flex-direction: column;
+}
+.bG2 {
+  position: absolute;
+  left: 11.9146%;
+  right: 15.0505%;
+  top: 40.9214%;
+  bottom: 50.0502%;
+  border-radius: 14.5469px;
+  background-color: #7f9c00;
+  box-shadow: 0px 78.5531px 77.0984px -33.4578px #161c2d23;
+}
+.buttonModificar {
+  position: absolute;
+  left: 66.4601%;
+  right: 17.8109%;
+  top: 42.7158%;
+  bottom: 52.4374%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buttonModifie {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.0863%;
+  bottom: -0.2777%;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #e7efb3;
+}
+.buttonName4 {
+  color: #000;
+  font-size: 24.7297px;
+  line-height: 46.55px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.8728px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 0.3267px);
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.dropdownMenuHoraNueva {
+  position: absolute;
+  left: 39.8072%;
+  right: 35.1466%;
+  top: 42.7158%;
+  bottom: 52.5325%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0.0919%;
+  bottom: -0.2833%;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.bGMain2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #fff;
+}
+.bGBorder2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1.4547px #e7e9ed;
+  outline-offset: -1px;
+  border-radius: 11.6375px;
+}
+.selectName2 {
+  color: #161c2d;
+  font-size: 21.8203px;
+  line-height: 37.8219px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.1455px;
+  position: absolute;
+  left: 26.1844px;
+  top: calc(50% - -0.8887px);
+  width: 280.7546px;
+  height: min-content;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.iconsDropdownSolid2 {
+  position: absolute;
+  left: 88%;
+  right: 4.8%;
+  top: 32%;
+  bottom: 32%;
+  overflow: visible;
+}
+.icon4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dropdownMenuConsulta {
+  position: absolute;
+  left: 13.1543%;
+  right: 61.7995%;
+  top: 42.5364%;
+  bottom: 51.7742%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.bGMain3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #fff;
+}
+.bGBorder3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1.4547px #e7e9ed;
+  outline-offset: -1px;
+  border-radius: 11.6375px;
+}
+.selectName3 {
+  color: #161c2d;
+  font-size: 21.8203px;
+  line-height: 37.8219px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.1455px;
+  position: absolute;
+  left: 26.1844px;
+  top: calc(50% - -0.4621px);
+  width: 280.7546px;
+  height: min-content;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.iconsDropdownSolid3 {
+  position: absolute;
+  left: 88%;
+  right: 4.8%;
+  top: 32%;
+  bottom: 32%;
+  overflow: visible;
+}
+.icon5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.modificarHoraDeUnaCitaConsulta {
+  color: #000;
+  font-size: 40px;
+  line-height: 16.7057px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 11.9146%;
+  right: 22.9339%;
+  top: 31.7073%;
+  bottom: 59.0786%;
+  width: 946px;
+  height: 68px;
+  justify-content: center;
+  flex-direction: column;
+}
+.bG3 {
+  position: absolute;
+  left: 11.9146%;
+  right: 15.0505%;
+  top: 18.1572%;
+  bottom: 72.0207%;
+  border-radius: 14.5469px;
+  background-color: #7f9c00;
+  box-shadow: 0px 78.5531px 77.0984px -33.4578px #161c2d23;
+}
+.buttonReservar {
+  position: absolute;
+  left: 67.1165%;
+  right: 17.1544%;
+  top: 20.5352%;
+  bottom: 74.1919%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.buttonReserve {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.rectangle5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #e7efb3;
+}
+.buttonName5 {
+  color: #000;
+  font-size: 24.7297px;
+  line-height: 46.55px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.8728px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 0.865px);
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.inputLabel {
+  position: absolute;
+  left: 14.0185%;
+  right: 60.9352%;
+  top: 20.6386%;
+  bottom: 74.1919%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.bGSolid {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #fff;
+}
+.bGBorder4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1.4547px #e7e9ed;
+  outline-offset: -1px;
+  border-radius: 11.6375px;
+}
+.inputName {
+  opacity: 0.7;
+  color: #161c2d;
+  font-size: 21.8203px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.2567px;
+  position: absolute;
+  left: 8.4512px;
+  top: calc(50% - -0.6328px);
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.dropdownMenu2 {
+  position: absolute;
+  left: 40.5675%;
+  right: 34.3862%;
+  top: 20.6386%;
+  bottom: 74.1919%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.bGMain4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 11.6375px;
+  background-color: #fff;
+}
+.bGBorder5 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  outline: solid 1.4547px #e7e9ed;
+  outline-offset: -1px;
+  border-radius: 11.6375px;
+}
+.selectName4 {
+  color: #161c2d;
+  font-size: 21.8203px;
+  line-height: 37.8219px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.1455px;
+  position: absolute;
+  left: 26.1844px;
+  top: calc(50% - -0.3806px);
+  width: 280.7546px;
+  height: min-content;
+  flex-direction: column;
+  transform: translateY(-50%);
+}
+.iconsDropdownSolid4 {
+  position: absolute;
+  left: 88%;
+  right: 4.8%;
+  top: 32%;
+  bottom: 32%;
+  overflow: visible;
+}
+.icon6 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.reservaUnaCitaConsultaVeterina {
+  color: #000;
+  font-size: 60px;
+  line-height: 16.7057px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 9.4353%;
+  right: 11.7769%;
+  top: 8.9431%;
+  bottom: 81.8428%;
+  width: 1144px;
+  height: 68px;
+  justify-content: center;
+  flex-direction: column;
+}
+.sectionOnlineChat {
+  position: relative;
+  width: 1452px;
+  height: 603px;
+}
+.bg1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1452px;
+  height: 603px;
+  background-color: #f2fedc;
+}
+.messages {
+  position: absolute;
+  left: 8.2645%;
+  right: 4.8898%;
+  top: 3.4826%;
+  bottom: 0;
+  width: 1261px;
+  height: 582px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 15.5172px;
+  background-color: #f2fedc;
+  overflow: hidden;
+}
+.chatEnVivo {
+  color: #7f9c00;
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: bold;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+  position: absolute;
+  left: calc(50% - 26.5px);
+  top: 24px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+.backToTheStart {
+  position: absolute;
+  left: 13.8225px;
+  top: 35.1721px;
+  width: 20.6897px;
+  height: 20.6897px;
+}
+.icon7 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.rectangle9 {
+  position: absolute;
+  left: 1.4274%;
+  right: 1.4275%;
+  top: 18.9003%;
+  bottom: 67.354%;
+  border-radius: 4.1379px;
+  background-color: #d9d9d94d;
+}
+.holaEsteEsUnMensajeAutomaticoE {
+  position: absolute;
+  left: 31.9998px;
+  top: 138px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.textBlock3 {
+  color: #000;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+.textBlock4 {
+  margin-top: 0;
+  color: #000;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+}
+.draCeciliaPerez {
+  color: #000;
+  font-size: 13px;
+  line-height: 100%;
+  font-weight: 600;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+  position: absolute;
+  left: 31.9998px;
+  top: 116px;
+  width: 135px;
+  height: min-content;
+  flex-direction: column;
+}
+.rectangle28 {
+  position: absolute;
+  left: 2.7756%;
+  right: 18.1561%;
+  top: 78.3505%;
+  bottom: 11.512%;
+  border-radius: 5.1724px;
+  background-color: #d9d9d94d;
+}
+.frame {
+  position: absolute;
+  left: 999px;
+  top: 478px;
+  width: 17.5017px;
+  height: 12.4138px;
+}
+.icon8 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse45 {
+  position: absolute;
+  left: 1038px;
+  top: 468px;
+  width: 35.0034px;
+  height: 31.0345px;
+  overflow: visible;
+}
+.icon9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.ellipse46 {
+  position: absolute;
+  left: 1085px;
+  top: 468px;
+  width: 35.0034px;
+  height: 31.0345px;
+  overflow: visible;
+}
+.icon10 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frame2 {
+  position: absolute;
+  left: 1093.167px;
+  top: 474.2069px;
+  width: 23.3356px;
+  height: 20.6897px;
+}
+.icon11 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frame3 {
+  position: absolute;
+  left: 1044px;
+  top: 474px;
+  width: 23.3356px;
+  height: 20.6897px;
+}
+.icon12 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sentimentVerySatisfied {
+  position: absolute;
+  left: 0;
+  top: 471px;
+  width: 31px;
+  height: 28px;
+}
+.icon13 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.escribir {
+  color: #858585;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: Open Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.02em;
+  position: absolute;
+  left: 42px;
+  top: 477px;
+  width: 109px;
+  height: 20px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sectionVideoCalls {
+  position: relative;
+  width: 1452px;
+  height: 634px;
+}
+.bg4 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1452px;
+  height: 634px;
+  overflow: visible;
+}
+.icon14 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.atenderCitasConsultasViaVideol {
+  color: #000;
+  font-size: 48px;
+  line-height: 16.7057px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 16.1846%;
+  right: 15.427%;
+  top: 12.9338%;
+  bottom: 76.3407%;
+  width: 993px;
+  height: 68px;
+  justify-content: center;
+  flex-direction: column;
+}
+.cuadroVideoLlamada {
+  position: absolute;
+  left: 9.9174%;
+  right: 9.5041%;
+  top: 26.183%;
+  bottom: 5.5205%;
+  width: 1170px;
+  height: 433px;
+  outline: solid 10px #000;
+  background-color: #fff;
+}

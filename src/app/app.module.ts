@@ -28,12 +28,23 @@ import { GoogleMapsModule } from '@angular/google-maps';
 import { MatIconModule } from '@angular/material/icon';
 
 import { ClinicService } from './services/clinic.service';
-
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
+import { Home2Component } from './home2/home2.component';
+import {PaginaEPIC3Component} from './pagina-e-p-i-c3/pagina-e-p-i-c3.component'
+import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PaginaEPIC4Component,
+    LoginComponent,
+    RegisterComponent,
+    HomeComponent,
+    Home2Component,
+    PaginaEPIC3Component,
+    PaginaEPIC1Component
   ],
   imports: [
     BrowserModule,
@@ -51,7 +62,7 @@ import { ClinicService } from './services/clinic.service';
     MatGridListModule,
     SearchClinicGridListComponent,
     ClinicPageComponent,
-    MatIconModule
+    MatIconModule,
   ],
   providers: [
     ClinicService,

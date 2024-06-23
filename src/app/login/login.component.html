@@ -1,0 +1,27 @@
+
+
+<body>
+  
+<header>
+  <a href="#inicio"><img class="header__logoImage" src="HeaderLogo.png" alt="alt text" /></a>
+</header>
+<div class="form-container">
+    <h2>Iniciar Sesión</h2>
+    <form>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="i.e. john@mail.com" [(ngModel)]="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" placeholder="i.e. 123-456-7890" [(ngModel)]="password" required>
+      </div>
+      <div class="form-group">
+        <a routerLink="/epic01-pagina-e-p-i-c3"> <button type="submit">Iniciar Sesión</button> </a>
+      </div>
+      <div class="form-group">
+        <span>¿No tienes una cuenta? <a routerLink="/register">Regístrate aquí</a></span>
+      </div>
+    </form>
+  </div>
+</body>

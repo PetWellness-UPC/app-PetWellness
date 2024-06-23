@@ -1,7 +1,4 @@
 import {
-  NG_VALUE_ACCESSOR
-} from "./chunk-YMNWLPX6.js";
-import {
   MAT_FORM_FIELD,
   MatFormField
 } from "./chunk-ESVYW6XB.js";
@@ -13,6 +10,9 @@ import {
   transition,
   trigger
 } from "./chunk-LSZFHSV2.js";
+import {
+  NG_VALUE_ACCESSOR
+} from "./chunk-YMNWLPX6.js";
 import {
   ActiveDescendantKeyManager,
   BidiModule,

@@ -1,0 +1,48 @@
+<body>
+  <header>
+    <a href="#inicio"><img class="header__logoImage" src="HeaderLogo.png" alt="alt text" /></a>
+  </header>
+
+<div *ngIf="showVerificationMessage; else registerForm" class="verification-message">
+    <div class="ellipse15"> <img src="check.svg" alt="" class="icon" /></div>
+      <h2>¡Solo falta un paso!</h2>
+      <p>Te hemos mandado un correo de verificación...</p>
+    </div>
+
+  
+
+    <ng-template #registerForm>
+      <div class="form-container">
+        <h2>Registrar Cuenta</h2>
+        <form (ngSubmit)="register()">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="i.e. John Doe" [(ngModel)]="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="i.e. john@mail.com" [(ngModel)]="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" placeholder="i.e. 123-456-7890" [(ngModel)]="password" required>
+          </div>
+          <div class="form-group">
+            <label for="accountType">Tipo de Cuenta</label>
+            <select id="accountType" name="accountType" [(ngModel)]="accountType" (change)="toggleWorkPlaceField()" required>
+              <option value="usuario">Usuario</option>
+              <option value="veterinario">Veterinario</option>
+            </select>
+          </div>
+          <div class="form-group" *ngIf="accountType === 'veterinario'">
+            <label for="workPlace">Lugar de Trabajo</label>
+            <input type="text" id="workPlace" name="workPlace" placeholder="Nombre del lugar de trabajo" [(ngModel)]="workPlace">
+          </div>
+          <div class="form-group">
+            <button type="submit">Registrar</button>
+            <span>¿Ya tienes una cuenta? <a routerLink="/login">Inicia sesión aquí</a></span>
+          </div>
+        </form>
+      </div>
+    </ng-template>
+  </body>
