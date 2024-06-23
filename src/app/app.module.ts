@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PaginaEPIC4Component } from './pagina-e-p-i-c4/pagina-e-p-i-c4.component';
+import { PaginaEPIC3Component } from './pagina-e-p-i-c3/pagina-e-p-i-c3.component';
 import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async'; // Ajusta la ruta
 
@@ -23,7 +24,8 @@ import { MatFormFieldModule } from '@angular/material/form-field'; // Import Mat
   declarations: [
     AppComponent,
     PaginaEPIC4Component,
-    PaginaEPIC1Component
+    PaginaEPIC1Component,
+    PaginaEPIC3Component
   ],
   imports: [
     BrowserModule,
