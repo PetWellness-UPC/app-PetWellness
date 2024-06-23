@@ -1,0 +1,22 @@
+<div class="seccionBusquedaArticulos">
+  <div class="busquedaDeInformacionSobreMasc">Localizar Veterinarias</div>
+  <div class="bG3">
+    <search-clinic-autocomplete (searchResults)="onSearchResults($event)"></search-clinic-autocomplete>
+  </div>
+  <div [ngClass]="{'clinics-grid': true, 'search-active': isSearchActive}">
+    <mat-card *ngFor="let clinic of clinics" class="clinic-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{clinic.name}}</mat-card-title>
+        <mat-card-subtitle>{{clinic.address}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="clinic.imageUrl" alt="Photo of {{clinic.name}}">
+      <mat-card-content>
+        <p>{{clinic.description}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button (click)="viewDetails(clinic)">Detalles</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

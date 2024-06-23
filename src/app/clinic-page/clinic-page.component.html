@@ -1,0 +1,11 @@
+<div class="clinic-details" *ngIf="clinic">
+    <button mat-button class="back-button" (click)="goBack()">
+      <mat-icon>arrow_back</mat-icon>
+      Volver
+    </button>
+    <h1>{{ clinic.name }}</h1>
+    <img [src]="clinic.imageUrl" alt="Foto de {{ clinic.name }}">
+    <p>{{ clinic.description }}</p>
+    <app-search-clinic-map [latitude]="clinic.latitude" [longitude]="clinic.longitude"></app-search-clinic-map>
+  </div>
+  

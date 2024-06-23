@@ -1,0 +1,33 @@
+<body>
+    <header>
+      <div class="header__content">
+        <a href="/" class="header__logo"><img class="header__logoImage" src="HeaderLogo.png" alt="alt text" /></a>
+        <nav>
+          <a routerLink="/epic01-pagina-e-p-i-c3" class="header__link">Inicio</a>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <div class="card">
+        <h2>USUARIO VIP</h2>
+        <p class="price">s/. 30 <span>/mes</span></p>
+        <ul>
+          <li>Recomendacion selectiva</li>
+          <li>Prioridad en colas de consultas</li>
+          <li>Descuentos reservas</li>
+        </ul>
+        <button class="btn vip" (click)="navigateTo('pago-usuario-vip')">Obtener VIP</button>
+      </div>
+      <div class="card">
+        <h2>VETERINARIO</h2>
+        <p class="price">s/. 35 <span>/mes</span></p>
+        <ul>
+          <li>Publicidad en nuestra plataforma</li>
+          <li>Apartado exclusivo</li>
+          <li>Aumenta tu clientela</li>
+        </ul>
+        <button class="btn vet" (click)="navigateTo('pago-veterinario')">Afiliarse Ahora</button>
+      </div>
+    </div>
+  </body>
+  
