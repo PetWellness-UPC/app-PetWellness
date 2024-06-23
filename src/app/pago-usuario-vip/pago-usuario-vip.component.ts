@@ -7,14 +7,26 @@ import { Component } from '@angular/core';
 })
 export class PagoUsuarioVipComponent {
   pagoRealizado: boolean = false;
+  nombre: string = '';
+  email: string = '';
+  tarjeta: string = '';
+  fechaExpiracion: string = '';
+  cvv: string = '';
 
   realizarPago() {
-    // Aquí podrías realizar alguna lógica adicional de pago si fuera necesario
-
-    // Simulando un tiempo de carga o proceso
-    setTimeout(() => {
-      this.pagoRealizado = true;
-    }, 2000); // Ejemplo de 2 segundos de carga antes de mostrar el mensaje
-  }
+    if (this.nombre.trim() !== '' &&
+        this.email.trim() !== '' &&
+        this.tarjeta.trim() !== '' &&
+        this.fechaExpiracion.trim() !== '' &&
+        this.cvv.trim() !== '') {
+      
+      setTimeout(() => {
+        this.pagoRealizado = true;
+      }, 2000);
+      
+    } else {
+      console.log('Por favor completa todos los campos requeridos.');
+    }
+}
 }
 
