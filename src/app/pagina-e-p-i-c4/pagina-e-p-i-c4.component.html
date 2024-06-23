@@ -1,34 +1,22 @@
 <div class="seccionBusquedaArticulos">
   <div class="busquedaDeInformacionSobreMasc">Localizar Veterinarias</div>
   <div class="bG3">
-  <mat-form-field class="example-full-width">
-    <mat-label>Number</mat-label>
-    <input type="text"
-           placeholder="Pick one"
-           aria-label="Number"
-           matInput
-           [formControl]="myControl"
-           [matAutocomplete]="auto">
-    <mat-autocomplete #auto="matAutocomplete">
-      @for (option of options; track option) {
-        <mat-option [value]="option">{{option}}</mat-option>
-      }
-    </mat-autocomplete>
-  </mat-form-field>
-    <div class="inputSelectWithLabelCopy">
-      <div class="input2">
-        <div class="bGMain"></div>
-        <div class="bGBorder2"></div>
-        <div class="selectName">Distrito</div>
-      </div>
-    </div>
-    <div class="buttonSolidStyle4">
-      <button class="button1">
-        <div class="rectangle2"></div>
-        <div class="buttonName2">Buscar</div>
-      </button>
-    </div>
+    <search-clinic-autocomplete (searchResults)="onSearchResults($event)"></search-clinic-autocomplete>
   </div>
-  <app-search-clinic-map></app-search-clinic-map>
+  <div [ngClass]="{'clinics-grid': true, 'search-active': isSearchActive}">
+    <mat-card *ngFor="let clinic of clinics" class="clinic-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{clinic.name}}</mat-card-title>
+        <mat-card-subtitle>{{clinic.address}}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image [src]="clinic.imageUrl" alt="Photo of {{clinic.name}}">
+      <mat-card-content>
+        <p>{{clinic.description}}</p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button (click)="viewDetails(clinic)">Detalles</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
 </div>
-
