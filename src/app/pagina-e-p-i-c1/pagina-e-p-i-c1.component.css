@@ -1,1 +1,553 @@
-*,:host{box-sizing:border-box;margin:0;padding:0;background:0 0;border:0;flex-shrink:0;text-decoration:none;min-width:0;overflow-wrap:anywhere}:host,:not(span,a,ul,ol,li,p){display:flex}ol,ul{text-indent:0;padding-inline-start:1.5em}p:empty::before{content:"";display:inline-block}img{object-fit:contain}svg{overflow:visible}:host{flex:1;align-self:stretch;flex-direction:column;align-items:center;background-color:#fff;overflow-y:auto}.inicioBuscarArticulos{position:relative;width:1403px;height:764px}.bG,.button3{position:absolute}.bG{left:0;right:0;top:0;bottom:0;width:1403px;height:764px;background-image:linear-gradient(241.4deg,#2aa39bff 0,#192928ff 100%);background-position:center;background-repeat:no-repeat;background-size:auto}.button3{left:9.943%;right:54.4191%;top:53.7958%;bottom:39.5288%;flex-direction:column;align-items:flex-start;overflow:hidden;cursor:pointer}.rectangle{position:absolute;left:0;right:0;top:0;bottom:0;border-radius:11.6375px;background-color:#00ad97}.buttonName{color:#fff;font-size:24.7297px;line-height:46.55px;font-weight:700;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;letter-spacing:-.8728px;position:absolute;left:19.2%;right:19.2%;top:calc(50% - .0891px);width:min-content;height:min-content;text-align:center;align-items:center;white-space:nowrap;flex-direction:column;transform:translateY(-50%)}.ellipse15{position:absolute;left:67.1062%;right:4.6686%;top:10.4712%;bottom:42.3859%;width:396px;height:360.1714px;overflow:visible}.icon{width:100%;height:100%;object-fit:cover}.deberSaberQueTuMascotaNecesita{position:absolute;left:4.5973%;right:39.5937%;top:32.0189%;bottom:51.6716%;width:783px;height:124.6048px;flex-direction:column}.textBlock,.textBlock2,.textBlock3,.textBlock4,.textBlock5{color:#fff;font-size:24px;line-height:16.7057px;font-weight:500;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif}.textBlock2,.textBlock3,.textBlock4,.textBlock5{margin-top:0}.teOfrecemosInformacionSobreTuM{position:absolute;left:4.6686%;right:37.598%;top:14.6379%;bottom:73.4573%;width:810px;height:90.9524px;justify-content:center;flex-direction:column}.textBlock10,.textBlock11,.textBlock6,.textBlock7,.textBlock8,.textBlock9{color:#fff;font-size:60px;line-height:16.7057px;font-weight:800;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif}.textBlock10,.textBlock11,.textBlock7,.textBlock8,.textBlock9{margin-top:0}.seccionBusquedaArticulos{position:relative;width:1403px;height:1159px}.bG2{left:0;right:0;top:0;bottom:0;width:1403px;height:1159px;background-color:#f2fedc}.bG2,.bG4,.favorito3{position:absolute}.bG4{left:0;right:0;top:0;bottom:0;width:1403px;height:1159px;background-color:#f2fedc;opacity:0}.favorito3{left:82.7869%;right:12.2238%;top:57.4633%;bottom:35.0302%;width:70px;height:87px;overflow:visible}.icon2{width:100%;height:100%;object-fit:cover}.respiracionEnLosPerrosLasRazas{position:absolute;left:4.4547%;right:2.8867%;top:58.3261%;bottom:35.8067%;width:1300px;height:68px;justify-content:center;flex-direction:column}.textBlock12,.textBlock13{color:#000;font-size:40px;line-height:16.7057px;font-weight:700;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif}.textBlock13{margin-top:0}.favorito2{position:absolute;left:65.6094%;right:29.4013%;top:46.8507%;bottom:45.6428%;width:70px;height:87px;overflow:visible}.icon3{width:100%;height:100%;object-fit:cover}.carlinosParaDepartamentosLaRaz{color:#000;font-size:40px;line-height:50px;font-weight:700;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;position:absolute;left:4.4547%;right:2.8867%;top:48.4038%;bottom:47.2821%;width:1300px;height:min-content;flex-direction:column}.favorito1{position:absolute;left:55.5595%;right:39.4512%;top:37.0147%;bottom:55.4789%;width:70px;height:87px;overflow:visible}.icon4{width:100%;height:100%;object-fit:cover}.laRazaPugLindosPeroEnfermizos{position:absolute;left:4.4547%;right:2.8867%;top:38.654%;bottom:55.4789%;width:1300px;height:68px;justify-content:center;flex-direction:column}.textBlock14,.textBlock15{color:#000;font-size:40px;line-height:16.7057px;font-weight:700;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif}.textBlock15{margin-top:0}.bG3{position:absolute;left:3.2787%;right:21.1357%;top:18.9819%;bottom:69.0945%;border-radius:14.5469px;background-color:#7f9c00;box-shadow:0 78.5531px 77.0984px -33.4578px #161c2d23}.buttonSolidStyle4{position:absolute;left:60.4085%;right:23.3131%;top:21.8687%;bottom:71.7302%;flex-direction:column;align-items:flex-start}.button1,.rectangle2{position:absolute;left:0;right:0;top:0;bottom:0}.button1{flex-direction:column;align-items:flex-start;overflow:hidden;cursor:pointer}.rectangle2{border-radius:11.6375px;background-color:#e7efb3}.buttonName2,.inputSelectWithLabel{position:absolute;flex-direction:column}.buttonName2{color:#000;font-size:24.7297px;line-height:46.55px;font-weight:700;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;letter-spacing:-.8728px;left:0;right:0;top:calc(50% - .5023px);height:min-content;text-align:center;align-items:center;transform:translateY(-50%)}.inputSelectWithLabel{left:5.4561%;right:68.6229%;top:21.9942%;bottom:71.7302%;align-items:flex-start}.bGBorder,.bGSolid,.input{position:absolute;left:0;right:0;top:0;bottom:0}.input{flex-direction:column;align-items:flex-start;overflow:hidden}.bGBorder,.bGSolid{border-radius:11.6375px}.bGSolid{color:#161c2d;font-size:21.8203px;line-height:37.8219px;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;letter-spacing:-.1455px;background-color:#fff}.bGBorder{outline:solid 1.4547px #e7e9ed;outline-offset:-1px}.inputName,.inputSelectWithLabelCopy{position:absolute;flex-direction:column}.inputName{opacity:.7;color:#161c2d;font-size:21.8203px;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;letter-spacing:-.2567px;left:27.6391px;top:calc(50% - 1.5469px);width:min-content;height:min-content;white-space:nowrap;transform:translateY(-50%)}.inputSelectWithLabelCopy{left:32.9323%;right:41.1467%;top:21.9942%;bottom:71.7302%;align-items:flex-start}.bGBorder2,.bGMain,.input2{position:absolute;left:0;right:0;top:0;bottom:0}.input2{flex-direction:column;align-items:flex-start;overflow:hidden}.bGBorder2,.bGMain{border-radius:11.6375px}.bGMain{color:#161c2d;font-size:21.8203px;line-height:37.8219px;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;letter-spacing:-.1455px;background-color:#fff}.bGBorder2{outline:solid 1.4547px #e7e9ed;outline-offset:-1px}.busquedaDeInformacionSobreMasc,.selectName{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif;position:absolute;flex-direction:column}.selectName{color:#161c2d;font-size:21.8203px;line-height:37.8219px;letter-spacing:-.1455px;left:26.1844px;top:calc(50% - -.0891px);width:280.7546px;height:min-content;transform:translateY(-50%)}.busquedaDeInformacionSobreMasc{color:#000;font-size:60px;line-height:16.7057px;font-weight:700;left:3.2787%;right:4.0627%;top:6.9888%;bottom:87.1441%;width:1300px;height:68px;justify-content:center}.Main{max-width:100%;height:1px;max-height:100%;align-self:stretch;flex-direction:column;padding:25px;overflow:hidden}
+*,
+:host {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    flex-shrink: 0;
+    text-decoration: none;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+:host,
+:not(span, a, ul, ol, li, p) {
+    display: flex;
+}
+
+ol, ul {
+    text-indent: 0;
+    padding-inline-start: 1.5em;
+}
+
+p:empty::before {
+    content: "";
+    display: inline-block;
+}
+
+img {
+    object-fit: contain;
+}
+
+svg {
+    overflow: visible;
+}
+
+:host {
+    flex: 1;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+.inicioBuscarArticulos {
+    position: relative;
+    width: 1403px;
+    height: 764px;
+}
+
+.bG,
+.button3 {
+    position: absolute;
+}
+
+.bG {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1403px;
+    height: 764px;
+    background-image: linear-gradient(241.4deg, #2aa39bff 0%, #192928ff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.button3 {
+    left: 9.943%;
+    right: 54.4191%;
+    top: 53.7958%;
+    bottom: 39.5288%;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.rectangle {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 11.6375px;
+    background-color: #00ad97;
+}
+
+.buttonName {
+    color: #fff;
+    font-size: 24.7297px;
+    line-height: 46.55px;
+    font-weight: 700;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: -0.8728px;
+    position: absolute;
+    left: 19.2%;
+    right: 19.2%;
+    top: calc(50% - 0.0891px);
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    transform: translateY(-50%);
+}
+
+.ellipse15 {
+    position: absolute;
+    left: 67.1062%;
+    right: 4.6686%;
+    top: 10.4712%;
+    bottom: 42.3859%;
+    width: 396px;
+    height: 360.1714px;
+    overflow: visible;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.deberSaberQueTuMascotaNecesita {
+    position: absolute;
+    left: 4.5973%;
+    right: 39.5937%;
+    top: 32.0189%;
+    bottom: 51.6716%;
+    width: 783px;
+    height: 124.6048px;
+    flex-direction: column;
+}
+
+.textBlock,
+.textBlock2,
+.textBlock3,
+.textBlock4,
+.textBlock5 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 16.7057px;
+    font-weight: 500;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.textBlock2,
+.textBlock3,
+.textBlock4,
+.textBlock5 {
+    margin-top: 0;
+}
+
+.teOfrecemosInformacionSobreTuM {
+    position: absolute;
+    left: 4.6686%;
+    right: 37.598%;
+    top: 14.6379%;
+    bottom: 73.4573%;
+    width: 810px;
+    height: 90.9524px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textBlock10,
+.textBlock11,
+.textBlock6,
+.textBlock7,
+.textBlock8,
+.textBlock9 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 16.7057px;
+    font-weight: 800;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.textBlock10,
+.textBlock11,
+.textBlock7,
+.textBlock8,
+.textBlock9 {
+    margin-top: 0;
+}
+
+.seccionBusquedaArticulos {
+    position: relative;
+    width: 1403px;
+    height: 1159px;
+}
+
+.bG2 {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1403px;
+    height: 1159px;
+    background-color: #f2fedc;
+}
+
+.bG2,
+.bG4,
+.favorito3 {
+    position: absolute;
+}
+
+.bG4 {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1403px;
+    height: 1159px;
+    background-color: #f2fedc;
+    opacity: 0;
+}
+
+.favorito3 {
+    left: 82.7869%;
+    right: 12.2238%;
+    top: 57.4633%;
+    bottom: 35.0302%;
+    width: 70px;
+    height: 87px;
+    overflow: visible;
+}
+
+.icon2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.respiracionEnLosPerrosLasRazas {
+    position: absolute;
+    left: 4.4547%;
+    right: 2.8867%;
+    top: 58.3261%;
+    bottom: 35.8067%;
+    width: 1300px;
+    height: 68px;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.textBlock12,
+.textBlock13 {
+    color: #000;
+    font-size: 40px;
+    line-height: 16.7057px;
+    font-weight: 700;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+.textBlock13 {
+    margin-top: 0;
+}
+
+.favorito2 {
+    position: absolute;
+    left: 65.6094%;
+    right: 29.4013%;
+    top: 46.8507%;
+    bottom: 45.6428%;
+    width: 70px;
+    height: 87px;
+    overflow: visible;
+}
+
+.icon3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carlinosParaDepartamentosLaRaz {
+    color: #000;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    position: absolute;
+    left: 4.4547%;
+    right: 2.8867%;
+    top: 48.4038%;
+    bottom: 47.2821%;
+    width: 1300px;
+    height: min-content;
+    flex-direction: column;
+}
+
+.favorito1 {
+    position: absolute;
+    left: 55.5595%;
+    right: 39.4512%;
+    top: 37.0147%;
+    bottom: 55.4789%;
+    width: 70px;
+    height: 87px;
+    overflow: visible;
+}
+
+.icon4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.laRazaPugLindosPeroEnfermizos {
+    position: absolute;
+    left: 4.4547%;
+    right: 2.8867%;
+    top: 38.654%;
+    bottom: 55.4789%;
+    width: 1300px;
+    height: 68px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textBlock14,
+.textBlock15 {
+    color: #000;
+    font-size: 40px;
+    line-height: 16.7057px;
+    font-weight: 700;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    opacity: 1;
+}
+
+.textBlock15 {
+    margin-top: 0;
+}
+
+.bG3 {
+    position: absolute;
+    left: 3.2787%;
+    right: 21.1357%;
+    top: 18.9819%;
+    bottom: 69.0945%;
+    border-radius: 14.5469px;
+    background-color: #7f9c00;
+    box-shadow: 0 78.5531px 77.0984px -33.4578px #161c2d23;
+}
+
+.buttonSolidStyle4 {
+    position: absolute;
+    left: 60.4085%;
+    right: 23.3131%;
+    top: 21.8687%;
+    bottom: 71.7302%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.button1,
+.rectangle2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.button1 {
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.rectangle2 {
+    border-radius: 11.6375px;
+    background-color: #e7efb3;
+}
+
+.buttonName2,
+.inputSelectWithLabel {
+    position: absolute;
+    flex-direction: column;
+}
+
+.buttonName2 {
+    color: #000;
+    font-size: 24.7297px;
+    line-height: 46.55px;
+    font-weight: 700;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: -0.8728px;
+    left: 0;
+    right: 0;
+    top: calc(50% - 0.5023px);
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    transform: translateY(-50%);
+}
+
+.inputSelectWithLabel {
+    left: 5.4561%;
+    right: 68.6229%;
+    top: 21.9942%;
+    bottom: 71.7302%;
+    align-items: flex-start;
+}
+
+.bGBorder,
+.bGSolid,
+.input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.input {
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.bGBorder,
+.bGSolid {
+    border-radius: 11.6375px;
+}
+
+.bGSolid {
+    color: #161c2d;
+    font-size: 21.8203px;
+    line-height: 37.8219px;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: -0.1455px;
+    background-color: #fff;
+}
+
+.bGBorder {
+    outline: solid 1.4547px #e7e9ed;
+    outline-offset: -1px;
+}
+
+.inputName,
+.inputSelectWithLabelCopy {
+    position: absolute;
+    flex-direction: column;
+}
+
+.inputName {
+    opacity: 0.7;
+    color: #161c2d;
+    font-size: 21.8203px;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: -0.2567px;
+    left: 27.6391px;
+    top: calc(50% - 1.5469px);
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    transform: translateY(-50%);
+}
+
+.inputSelectWithLabelCopy {
+    left: 32.9323%;
+    right: 41.1467%;
+    top: 21.9942%;
+    bottom: 71.7302%;
+    align-items: flex-start;
+}
+
+.bGBorder2,
+.bGMain,
+.input2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.input2 {
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.bGBorder2,
+.bGMain {
+    border-radius: 11.6375px;
+}
+
+.bGMain {
+    color: #161c2d;
+    font-size: 21.8203px;
+    line-height: 37.8219px;
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    letter-spacing: -0.1455px;
+    background-color: #fff;
+}
+
+.bGBorder2 {
+    outline: solid 1.4547px #e7e9ed;
+    outline-offset: -1px;
+}
+
+.busquedaDeInformacionSobreMasc,
+.selectName {
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    position: absolute;
+    flex-direction: column;
+}
+
+.selectName {
+    color: #161c2d;
+    font-size: 21.8203px;
+    line-height: 37.8219px;
+    letter-spacing: -0.1455px;
+    left: 26.1844px;
+    top: calc(50% - -0.0891px);
+    width: 280.7546px;
+    height: min-content;
+    transform: translateY(-50%);
+}
+
+.busquedaDeInformacionSobreMasc {
+    color: #000;
+    font-size: 60px;
+    line-height: 16.7057px;
+    font-weight: 700;
+    left: 3.2787%;
+    right: 4.0627%;
+    top: 6.9888%;
+    bottom: 87.1441%;
+    width: 1300px;
+    height: 68px;
+    justify-content: center;
+}
+
+.Main {
+    max-width: 100%;
+    height: 1px;
+    max-height: 100%;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 25px;
+    overflow: hidden;
+}

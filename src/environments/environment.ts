@@ -1,4 +1,4 @@
 export const environment={
     producction: false,
-    apiUrl: 'https://petwellness-api-emdj.onrender.com/api/v1'
+    apiUrl: 'http://localhost:3000/api/v1'
 }

@@ -11,7 +11,7 @@ export class PaginaEPIC1Component implements OnInit {
   petType: string = '';
 
   articles = [
-    { title: 'Respiracion en los perros: Las razas que más les cuesta', class: 'respiracionEnLosPerrosLasRazas', class2: 'favorito3' },
+    { title: 'Respiracion en los perros: Las razas que mÃ¡s les cuesta', class: 'respiracionEnLosPerrosLasRazas', class2: 'favorito3' },
     { title: 'Carlinos para departamentos: La raza ideal?', class: 'carlinosParaDepartamentosLaRaz', class2: 'favorito2' },
     { title: 'La raza pug: Lindos pero enfermizos', class: 'laRazaPugLindosPeroEnfermizos', class2: 'favorito1' }
   ];
@@ -66,5 +66,12 @@ export class PaginaEPIC1Component implements OnInit {
     }
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.articles.forEach(article => {
+      const articleDiv = this.el.nativeElement.querySelector(`.${article.class}`);
+      const articleDiv2 = this.el.nativeElement.querySelector(`.${article.class2}`);
+      this.renderer.setStyle(articleDiv, 'opacity', '1');
+      this.renderer.setStyle(articleDiv2, 'opacity', '1');
+    });
+  }
 }

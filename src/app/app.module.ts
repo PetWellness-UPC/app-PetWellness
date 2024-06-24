@@ -27,6 +27,7 @@ import { PaginaEPIC1Component } from './pagina-e-p-i-c1/pagina-e-p-i-c1.componen
 import { PreciosComponent } from './precios/precios.component';
 import { PagoUsuarioVipComponent } from './pago-usuario-vip/pago-usuario-vip.component';
 import { PagoVeterinarioComponent } from './pago-veterinario/pago-veterinario.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { PagoVeterinarioComponent } from './pago-veterinario/pago-veterinario.co
     SearchClinicGridListComponent,
     ClinicPageComponent,
     MatIconModule,
+    HttpClientModule,
   ],
   providers: [
     ClinicService,
